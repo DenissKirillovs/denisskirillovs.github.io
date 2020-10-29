@@ -17,3 +17,27 @@
 	padding: 5;
 	
 }
+
+.allMenus
+
+{
+	
+	display:none;
+	border-bottom: 1px solid black;
+	
+	position: absolute; 
+	top: 40px;
+	right: 1px;
+	padding: 10px;
+	
+}
+
+#projects
+{
+	background:orange;
+}
+
+#contact
+{
+	background:blue;
+}
