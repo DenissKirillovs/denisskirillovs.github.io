@@ -9,7 +9,7 @@
 			function show(id)
 			
 			{
-				hideAllMenus();
+				hideAllMenus()
 				var div = document.getElementById(id);
 				div.style.display = "block";
 			}
@@ -24,10 +24,13 @@
 			function hideAllMenus()
 			
 			{
-				unshow('projects');
+
 				unshow('contact');
+				unshow('projects');
 			
 			}
+
+			
 		</script>
 		
 		
@@ -38,28 +41,31 @@
 		<div id="header"> 
 		
 			<div style="float: left">
-
+			
 			</div> 
 			
 			<div style="float: left">
 				<a href="index.html">Home</a> | <a onmouseenter ="show('contact')" href="#"> Contact</a> | <a href="downloads/Job CV Application.docx"> CV </a> | <a onmouseenter ="show('projects')" href="#"> Projects</a> | <a href="models.html">Models </a>
 
+			</div>
+			
 		</div>
 		
+		<div id="contact" class="hideAllMenus" style = "display: none;  border-bottom: 1px solid black;">
+			<img src="images/HomeButton.png" style = "width: 60; height: 50;">
+		</div>	
 		
-		
-		<div id="projects" class="allMenus" style = "display: none; border-bottom: 1px solid black;">
+		<div id="projects" class="hideAllMenus" style = "display: none; border-bottom: 1px solid black;">
 			<img src="images/HomeButton.png" style = "width: 60; height: 50;">
 			<img src="images/HomeButton.png" style = "width: 60; height: 50;">
 		</div>
 			
-		<div id="contact" class="allMenus" style = "display: none;  border-bottom: 1px solid black;">
-			<img src="images/HomeButton.png" style = "width: 60; height: 50;">
-		</div>		
+	
 		
 		
 		
 	<div onmouseenter="hideAllMenus()">
+
 		<br>
 		<br>
 		<br>
