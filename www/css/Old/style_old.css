@@ -1,0 +1,45 @@
+#header
+{
+	
+}
+
+
+.footer
+{
+	
+	position:fixed;
+	left: 0;
+	bottom: 0;
+	width: 100%;
+	background-color: grey;
+	color: black;
+	text-align: center;
+	padding: 5;
+	
+}
+
+.hideAllMenus
+
+{
+	
+	display:none;
+	border-bottom: 1px solid black;
+	
+	position: absolute; 
+	top: 25px;
+	left: 2px;
+	padding: 10px;
+	
+}
+
+
+
+#projects
+{
+	
+}
+
+#contact
+{
+
+}

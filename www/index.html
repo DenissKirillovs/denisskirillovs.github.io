@@ -3,92 +3,69 @@
 	<head>
 		<title>My Game Design Website</title>
 		<link rel ="stylesheet" type="text/css" href ="css/style.css">	
-		
-		<script>
-	
-			function show(id)
-			
-			{
-				hideAllMenus()
-				var div = document.getElementById(id);
-				div.style.display = "block";
-			}
-			
-			function unshow(id)
-			{
-				var div = document.getElementById(id);
-				div.style.display = "none";
-			}
-			
-			
-			function hideAllMenus()
-			
-			{
+		<link href="https://fonts.googleapis.com/css?family=Work+Sans:400" rel="stylesheet">
+		<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
 
-				unshow('contact');
-				unshow('projects');
-			
-			}
-
-			
-		</script>
-		
-		
 	</head>
 
-	<body style="background: url(https://emerging-europe.com/wp-content/uploads/2018/11/bigstock-abstract-technology-background-250119211.jpg); background-size: 100% 100%; ">
-	
-		<div id="header"> 
-		
-			<div style="float: left">
-			
-			</div> 
-			
-			<div style="float: left">
-				<a href="index.html">Home</a> | <a onmouseenter ="show('contact')" href="#"> Contact</a> | <a href="downloads/Job CV Application.docx"> CV </a> | <a onmouseenter ="show('projects')" href="#"> Projects</a> | <a href="models.html">Models </a>
 
-			</div>
+	<body>
+
+
+	<header>
+	
+		<div class = "container">
+		
+			<nav>
 			
+				<div class ="NavLink">
+					<ul>
+						<div class ="Fullscreen">
+							<li><a href="#">Deniss Kirillovs</a></li>
+							<li><a href="#">About Me</a></li>
+							<li><a href="#">Projects</a></li>
+							<li><a href="#">Personal Work</a></li>
+							<li><a href="#">Contact</a></li>
+							<li><a href="#">Resume</a></li>
+						</div>
+					</ul>
+				</div>
+				
+				
+				<div id = "MyLinks">
+					
+					<a id = "subAboutMe" href="#">About Me</a>
+					<a id = "subProjects" href="#">Projects</a>
+					<a id = "subPersonalWork" href="#">Personal Work</a>
+					<a id = "subContact" href="#">Contact</a>
+					<a id = "subResume" href="#">Resume</a>
+				
+					<a href="javascript:void(0);" class="icon" onclick="myFunction('subAboutMe')">
+						<i class="fa fa-bars"></i>
+					</a>
+
+					
+				</div>
+				
+			</nav>
+		
 		</div>
-		
-		<div id="contact" class="hideAllMenus" style = "display: none;  border-bottom: 1px solid black;">
-			<img src="images/HomeButton.png" style = "width: 60; height: 50;">
-		</div>	
-		
-		<div id="projects" class="hideAllMenus" style = "display: none; border-bottom: 1px solid black;">
-			<img src="images/HomeButton.png" style = "width: 60; height: 50;">
-			<img src="images/HomeButton.png" style = "width: 60; height: 50;">
+	
+
+	
+	</header>
+
+
+
+	
+	<script src="Nav.js"></script>
+
+
+		<div class="footer">
+			 Copyrighted © 2020 by Deniss Kirillovs
 		</div>
-			
-	
-		
-		
-		
-	<div onmouseenter="hideAllMenus()">
-
-		<br>
-		<br>
-		<br>
-		<br>
-		<p style="font-size: 20px; color: white;">  According to all known laws of aviation,  there is no way a bee should be able to fly. </p>
-		<p style="font-size: 20px; color: white;">  Its wings are too small to get its fat little body off the ground. </p>
-		<p style="font-size: 20px; color: white;">  The bee, of course, flies anyway because bees don't care what humans think is impossible. </p>
-		<p style="font-size: 20px; color: white;">  Yellow, black. Yellow, black. Yellow, black. Yellow, black. </p>
-		<p style="font-size: 20px; color: white;">  Ooh, black and yellow! Let's shake it up a little. </p>
-	
-
-
 
 	
-
-	
-	<div class="footer">
-		 © All rights reserved | Deniss Kirillovs 2020
-	</div>
-	
-	
-
-
 
 
 	</body>
