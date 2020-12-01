@@ -24,7 +24,7 @@
 									<li><a href="#AboutMe">About Me</a></li>
 									<li><a href="#ThirdLorem">Projects</a></li>
 									<li><a href="#ForthLorem">Personal Work</a></li>
-									<li><a href="#FifthLorem">Contact</a></li>
+									<li><a href="#Bottom">Contact</a></li>
 									<li><a href="#">Resume</a></li>
 								</div>
 							</ul>
@@ -32,12 +32,12 @@
 						
 						
 						<div class = "MyLinks">			
-							<a id = "subMyName" href="#Top">Deniss Kirillovs</a>
-							<a id = "subAboutMe" href="#AboutMe">About Me</a>
-							<a id = "subProjects" href="#ThirdLorem">Projects</a>
-							<a id = "subPersonalWork" href="#ForthLorem">Personal Work</a>
-							<a id = "subContact" href="#FifthLorem">Contact</a>
-							<a id = "subResume" href="#">Resume</a>				
+							<a id = "subMyName" href="#Top" onclick = "closehamburger()">Deniss Kirillovs</a>
+							<a id = "subAboutMe" href="#AboutMe" onclick = "closehamburger()">About Me</a>
+							<a id = "subProjects" href="#ThirdLorem" onclick = "closehamburger()">Projects</a>
+							<a id = "subPersonalWork" href="#ForthLorem" onclick = "closehamburger()">Personal Work</a>
+							<a id = "subContact" href="#Bottom" onclick = "closehamburger()">Contact</a>
+							<a id = "subResume" href="#" onclick = "closehamburger()">Resume</a>				
 						</div>
 						<a href="javascript:void(0);" id ="icon" onclick="hamburgerMenu()">
 							<i class="fa fa-bars"></i>
@@ -95,30 +95,7 @@
 				</div>
 			<!-- END OF ABOUT ME -->
 
-			
-
-
-
-
-			<!-- CONTACT -->
-			<br>
-			<div class = "JumpOffset" id = "Contact">
-				<div class = "section--med section" style="background-color: #062f4f;">
-					<div class = "SectionContent">
-						<span class = "title--big title">Contact</span>
-						<br>
-						<div class = "description">
-							<p> Feel free to email me for any enquires or questions. Or send me a message via the social media.
-							</p>
-						</div>
-					</div>
-				</div>
-			</div>
-			<!-- END OF CONTACT -->
-
-			
-
-			<!-- <div class = "LoremText">
+			<div class = "LoremText">
 				<br><br><br><br><br><br>
 					<div>
 						<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer congue augue velit, at pulvinar magna gravida sit amet. Morbi in ullamcorper est. Ut sagittis velit velit, ut rhoncus purus suscipit eget. In dolor nisl, sagittis nec congue vel, blandit vitae quam. Ut ac orci volutpat, interdum ipsum a, dignissim dolor. Interdum et malesuada fames ac ante ipsum primis in faucibus. Donec sed fermentum sem. Aenean pharetra, nulla eget varius accumsan, diam orci malesuada erat, id congue lacus lacus eget massa. Donec vel neque vitae arcu consequat mattis. Quisque eu sem cursus erat egestas semper at eleifend mauris.
@@ -194,11 +171,33 @@
 						</p>
 					</div>
 
-			</div> -->
+			</div>
+
+
+			<!-- CONTACT -->
+			<br>
+			<div id = "Contact">
+				<div class = "section--med section" style="background-color: #062f4f;">
+					<div class = "SectionContent">
+						<span class = "title--big title">Contact</span>
+						<br>
+						<div class = "description">
+							<p> Feel free to email me for any enquires or questions. Or send me a message via the social media.
+							</p>
+						</div>
+					</div>
+				</div>
+			</div>
+			<!-- END OF CONTACT -->
+
+			
+
+			
 			<script src="Nav.js"></script>
 
+			
 
-		<div class="footer">
+		<div class="footer" id = "Bottom">
 			Copyrighted © 2020 by Deniss Kirillovs
 		</div>
 		</div>

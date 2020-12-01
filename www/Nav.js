@@ -1,3 +1,24 @@
+function closehamburger()
+{
+	var x = document.getElementById("subMyName");
+	x.style.display = "none";
+	
+	var x = document.getElementById("subAboutMe");
+	x.style.display = "none";
+	
+	var x = document.getElementById("subProjects");
+	x.style.display = "none";
+	
+	var x = document.getElementById("subPersonalWork");
+	x.style.display = "none";
+	
+	var x = document.getElementById("subContact");
+	x.style.display = "none";
+	
+	var x = document.getElementById("subResume");
+	x.style.display = "none";
+}
+
 function hamburgerMenu()
 {
     var x = document.getElementById("subMyName");

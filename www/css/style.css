@@ -267,7 +267,7 @@ nav a:hover
 
 
 /* Hide/block the Hamburger Menu and Icon when above 1070px */
-@media only screen and (max-width: 1070px) 
+@media only screen and (max-width: 720px) 
 {
 	.Fullscreen
 	{
@@ -283,6 +283,15 @@ nav a:hover
 	{
 		display: block;
 	}
+
+	nav li 
+	{
+		margin-left: 15px;
+	}
+
+	
+
+
 }
 
 .JumpOffset {
@@ -304,7 +313,7 @@ nav a:hover
   position: relative;
   margin: auto;
   top: 56px;
-  width: 75%;
+  width: 95%;
   z-index: 2;
   padding-top: 30px;
 }
