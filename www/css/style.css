@@ -1,7 +1,11 @@
+* {
+	margin: 0;
+	padding: 0;
+}
+
+
 /* Setting the websites marging and padding to 0 from the start */
 html, body {
-    margin: 0;
-    padding: 0;
     width: 100%;
 	height: 100%;
 	box-sizing: border-box;
@@ -11,16 +15,20 @@ html{
 	scroll-behavior: smooth;
 }
 
+.page-container{
+	min-height: 100%;
+	overflow: auto;
+}
+
 /* Styling the footer (My right reserved section) */
 .footer
 {
-	left: 0;
-	bottom: 0;
 	width: 100%;
 	background-color: grey;
 	color: white;
 	text-align: center;
-	padding: 15;
+	padding-top: 12px;
+	padding-bottom: 12px;
 }
 
 /* Styling the body (entire page) */
@@ -81,6 +89,12 @@ body
 	text-align: center;
 }
 
+.SectionContent{
+	width: 100%;
+	display: block;
+	overflow: hidden;
+}
+
 .title--big {
 	font-size: 60px;
 }
@@ -91,7 +105,7 @@ body
 	color: white;
 }
 
-.AboutMeDesc{
+.description{
 	text-align: center;
 	padding-left: 20%;
 	padding-right: 20%;

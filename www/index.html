@@ -1,7 +1,7 @@
 <html id = "Top">
 
 	<head>
-		<title>My Game Design Website</title>
+		<title>Deniss Kirillovs - Game Programming and Design Portfolio</title>
 		<link rel ="stylesheet" type="text/css" href ="css/style.css">	
 		<link href="https://fonts.googleapis.com/css?family=Work+Sans:400" rel="stylesheet">
 		<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
@@ -10,178 +10,198 @@
 
 
 	<body>
-
-
-	<header>
-	
-		<div class = "container">
-		
-			<nav>
+		<div class = "page-container">
+			<header>
 			
-				<div class ="NavLink">
-					<ul>
-						<div class ="Fullscreen">
-							<li><a href="#Top">Deniss Kirillovs</a></li>
-							<li><a href="#AboutMe">About Me</a></li>
-							<li><a href="#ThirdLorem">Projects</a></li>
-							<li><a href="#ForthLorem">Personal Work</a></li>
-							<li><a href="#FifthLorem">Contact</a></li>
-							<li><a href="#">Resume</a></li>
+				<div class = "container">
+				
+					<nav>
+					
+						<div class ="NavLink">
+							<ul>
+								<div class ="Fullscreen">
+									<li><a href="#Top">Deniss Kirillovs</a></li>
+									<li><a href="#AboutMe">About Me</a></li>
+									<li><a href="#ThirdLorem">Projects</a></li>
+									<li><a href="#ForthLorem">Personal Work</a></li>
+									<li><a href="#FifthLorem">Contact</a></li>
+									<li><a href="#">Resume</a></li>
+								</div>
+							</ul>
 						</div>
-					</ul>
-				</div>
+						
+						
+						<div class = "MyLinks">			
+							<a id = "subMyName" href="#Top">Deniss Kirillovs</a>
+							<a id = "subAboutMe" href="#AboutMe">About Me</a>
+							<a id = "subProjects" href="#ThirdLorem">Projects</a>
+							<a id = "subPersonalWork" href="#ForthLorem">Personal Work</a>
+							<a id = "subContact" href="#FifthLorem">Contact</a>
+							<a id = "subResume" href="#">Resume</a>				
+						</div>
+						<a href="javascript:void(0);" id ="icon" onclick="hamburgerMenu()">
+							<i class="fa fa-bars"></i>
+						</a>
+					</nav>
 				
+				</div>
+			</header>
+
+			<div class="slideshow-container"  id = "Top">
+				<div class="mySlides fade">
+				<div class="numbertext">1 / 3</div>
+				<img src="/images/img_lights_wide.jpg" style="width:100%">
+				<div class="text">Caption Text</div>
+				</div>
+			
+				<div class="mySlides fade">
+				<div class="numbertext">2 / 3</div>
+				<img src="/images/img_nature_wide.jpg" style="width:100%">
+				<div class="text">Caption Two</div>
+				</div>
+			
+				<div class="mySlides fade">
+				<div class="numbertext">3 / 3</div>
+				<img src="/images/img_snow_wide.jpg" style="width:100%">
+				<div class="text">Caption Three</div>
+				</div>
+			
+				<a class="prev" onclick="plusSlides(-1)">&#10094;</a>
+				<a class="next" onclick="plusSlides(1)">&#10095;</a>
+			</div>
+			<br>
+			
+			<div style="text-align:center">
+				<br><br><br>
+				<span class="dot" onclick="currentSlide(1)"></span>
+				<span class="dot" onclick="currentSlide(2)"></span>
+				<span class="dot" onclick="currentSlide(3)"></span>
+			</div>
+
+			<!-- ABOUT ME-->
+			<br>
+			<div class = "JumpOffset" id = "AboutMe"></div>
+				<div class = "section--med section" style="background-color: #062F4F;">
+					<div class = "SectionContent">
+						<span class = "title--big title">About Me</span>
+						<br>
+						<div class = "description">
+							<p> Hi! I'm Deniss Kirillovs, a game visual scripter and a designer who originated from Latvia. I am currently studying at Bournemouth University and I am very passionate and a commited indivudal who excels at visual scripting in Unreal Engine 4, map and environmental design.
+							</p>
+							<p>I have also created and worked on numerous game ready models using 3DS MAX and Maya - which are both tools that I am comfortable in using.	
+							</p>
+						</div>
+					</div>
+				</div>
+			<!-- END OF ABOUT ME -->
+
+			
+
+
+
+
+			<!-- CONTACT -->
+			<br>
+			<div class = "JumpOffset" id = "Contact">
+				<div class = "section--med section" style="background-color: #062f4f;">
+					<div class = "SectionContent">
+						<span class = "title--big title">Contact</span>
+						<br>
+						<div class = "description">
+							<p> Feel free to email me for any enquires or questions. Or send me a message via the social media.
+							</p>
+						</div>
+					</div>
+				</div>
+			</div>
+			<!-- END OF CONTACT -->
+
+			
+
+			<!-- <div class = "LoremText">
+				<br><br><br><br><br><br>
+					<div>
+						<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer congue augue velit, at pulvinar magna gravida sit amet. Morbi in ullamcorper est. Ut sagittis velit velit, ut rhoncus purus suscipit eget. In dolor nisl, sagittis nec congue vel, blandit vitae quam. Ut ac orci volutpat, interdum ipsum a, dignissim dolor. Interdum et malesuada fames ac ante ipsum primis in faucibus. Donec sed fermentum sem. Aenean pharetra, nulla eget varius accumsan, diam orci malesuada erat, id congue lacus lacus eget massa. Donec vel neque vitae arcu consequat mattis. Quisque eu sem cursus erat egestas semper at eleifend mauris.
+
+							Cras ut aliquam ex, ut luctus dui. Proin venenatis arcu mi, ultrices fringilla massa placerat a. Nam in tempus lacus, vitae suscipit enim. Nullam ipsum ante, dignissim nec ornare nec, hendrerit a nisl. Cras facilisis, ligula a venenatis venenatis, nisl tellus venenatis sapien, in aliquam nibh mauris at ligula. Sed condimentum orci et dapibus luctus. Curabitur eleifend vulputate libero a rhoncus. Etiam eget lobortis orci, eu tempor ligula. In faucibus leo nisi, at aliquam lacus malesuada eget. Aenean sit amet sodales sem. Proin posuere nisi felis, non luctus diam pellentesque non. Praesent ac purus fringilla, ornare nisl vitae, ullamcorper enim. Interdum et malesuada fames ac ante ipsum primis in faucibus.
+						</p>
+
+						<p>In sed feugiat ante. Integer rhoncus luctus ullamcorper. Duis at lorem eu nulla suscipit laoreet. Morbi viverra metus turpis, non pharetra augue sodales non. Ut lacus enim, luctus nec semper sed, ultrices in arcu. Cras porta ut ipsum id facilisis. Etiam a auctor diam. Curabitur lacinia, ante non luctus fringilla, sem ipsum venenatis risus, vitae bibendum ligula diam sed est. Aliquam malesuada lobortis blandit.
+							
+							Curabitur eget lobortis purus, at varius velit. Donec diam arcu, mollis vitae magna malesuada, tempus dapibus metus. Nulla non mauris tincidunt, ullamcorper lacus sed, finibus purus. Praesent malesuada est magna, ac vestibulum elit finibus a. Praesent et efficitur sapien, quis mattis dui. Vivamus rutrum erat nec sapien imperdiet, quis varius odio consectetur. Phasellus pellentesque malesuada vulputate. Integer malesuada mi sapien, eu euismod justo volutpat ut. Integer viverra neque aliquam dolor fermentum, at gravida magna porta. Ut eu lacus varius, ultrices nunc nec, tempus nunc.
+							
+							Vivamus a quam suscipit magna pharetra finibus sit amet at nisi. Sed laoreet lectus eros, non pharetra orci malesuada eleifend. Donec gravida nec enim id fermentum. Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. Fusce tincidunt mauris vitae orci consectetur rutrum. Pellentesque semper quam urna, vel pretium ex luctus at. Morbi gravida vehicula est quis maximus. Sed aliquet iaculis velit, id consectetur dolor viverra id. Nunc at porttitor nisi. Nam efficitur viverra arcu at convallis. Mauris nec placerat ante. Maecenas facilisis tempus luctus. Fusce tellus felis, lacinia a lacus non, pulvinar sodales turpis.
+						</p>
+					</div>
 				
-				<div class = "MyLinks">			
-					<a id = "subMyName" href="#Top">Deniss Kirillovs</a>
-					<a id = "subAboutMe" href="#AboutMe">About Me</a>
-					<a id = "subProjects" href="#ThirdLorem">Projects</a>
-					<a id = "subPersonalWork" href="#ForthLorem">Personal Work</a>
-					<a id = "subContact" href="#FifthLorem">Contact</a>
-					<a id = "subResume" href="#">Resume</a>				
-				</div>
-				<a href="javascript:void(0);" id ="icon" onclick="hamburgerMenu()">
-					<i class="fa fa-bars"></i>
-				</a>
-			</nav>
-		
-		</div>
-	</header>
+				<div class ="JumpOffset" id = "SecondLorem"></div>
+					<div>
+						<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer congue augue velit, at pulvinar magna gravida sit amet. Morbi in ullamcorper est. Ut sagittis velit velit, ut rhoncus purus suscipit eget. In dolor nisl, sagittis nec congue vel, blandit vitae quam. Ut ac orci volutpat, interdum ipsum a, dignissim dolor. Interdum et malesuada fames ac ante ipsum primis in faucibus. Donec sed fermentum sem. Aenean pharetra, nulla eget varius accumsan, diam orci malesuada erat, id congue lacus lacus eget massa. Donec vel neque vitae arcu consequat mattis. Quisque eu sem cursus erat egestas semper at eleifend mauris.
 
-	<div class="slideshow-container"  id = "Top">
-		<div class="mySlides fade">
-		  <div class="numbertext">1 / 3</div>
-		  <img src="/images/img_lights_wide.jpg" style="width:100%">
-		  <div class="text">Caption Text</div>
-		</div>
-	  
-		<div class="mySlides fade">
-		  <div class="numbertext">2 / 3</div>
-		  <img src="/images/img_nature_wide.jpg" style="width:100%">
-		  <div class="text">Caption Two</div>
-		</div>
-	  
-		<div class="mySlides fade">
-		  <div class="numbertext">3 / 3</div>
-		  <img src="/images/img_snow_wide.jpg" style="width:100%">
-		  <div class="text">Caption Three</div>
-		</div>
-	  
-		<a class="prev" onclick="plusSlides(-1)">&#10094;</a>
-		<a class="next" onclick="plusSlides(1)">&#10095;</a>
-	</div>
-	<br>
-	
-	<div style="text-align:center">
-		<br><br><br>
-		<span class="dot" onclick="currentSlide(1)"></span>
-		<span class="dot" onclick="currentSlide(2)"></span>
-		<span class="dot" onclick="currentSlide(3)"></span>
-	</div>
+							Cras ut aliquam ex, ut luctus dui. Proin venenatis arcu mi, ultrices fringilla massa placerat a. Nam in tempus lacus, vitae suscipit enim. Nullam ipsum ante, dignissim nec ornare nec, hendrerit a nisl. Cras facilisis, ligula a venenatis venenatis, nisl tellus venenatis sapien, in aliquam nibh mauris at ligula. Sed condimentum orci et dapibus luctus. Curabitur eleifend vulputate libero a rhoncus. Etiam eget lobortis orci, eu tempor ligula. In faucibus leo nisi, at aliquam lacus malesuada eget. Aenean sit amet sodales sem. Proin posuere nisi felis, non luctus diam pellentesque non. Praesent ac purus fringilla, ornare nisl vitae, ullamcorper enim. Interdum et malesuada fames ac ante ipsum primis in faucibus.
+						</p>
 
-	<!-- ABOUT ME-->
-	<br>
-	<div class = "JumpOffset" class = "mobileJumpOffset" id = "AboutMe"></div>
-		<div class = "section--med section" style="background-color: #062F4F;">
-			<div class = "AboutMeSectionContent">
-				<span class = "title--big title">About Me</span>
-				<br>
-				<div class = "AboutMeDesc">
-					<p> Hi! I'm Deniss Kirillovs, a game visual scripter and a designer who originated from Latvia. I am currently studying at Bournemouth University and I am very passionate and a commited indivudal who excels at visual scripting in Unreal Engine 4, map and environmental design.
-					</p>
-					<p>I have also created and worked on numerous game ready models using 3DS MAX and Maya - which are both tools that I am comfortable in using.	
-					</p>
-				</div>
-			</div>
-		</div>
-	<!-- END OF ABOUT ME -->
+						<p>In sed feugiat ante. Integer rhoncus luctus ullamcorper. Duis at lorem eu nulla suscipit laoreet. Morbi viverra metus turpis, non pharetra augue sodales non. Ut lacus enim, luctus nec semper sed, ultrices in arcu. Cras porta ut ipsum id facilisis. Etiam a auctor diam. Curabitur lacinia, ante non luctus fringilla, sem ipsum venenatis risus, vitae bibendum ligula diam sed est. Aliquam malesuada lobortis blandit.
+							
+							Curabitur eget lobortis purus, at varius velit. Donec diam arcu, mollis vitae magna malesuada, tempus dapibus metus. Nulla non mauris tincidunt, ullamcorper lacus sed, finibus purus. Praesent malesuada est magna, ac vestibulum elit finibus a. Praesent et efficitur sapien, quis mattis dui. Vivamus rutrum erat nec sapien imperdiet, quis varius odio consectetur. Phasellus pellentesque malesuada vulputate. Integer malesuada mi sapien, eu euismod justo volutpat ut. Integer viverra neque aliquam dolor fermentum, at gravida magna porta. Ut eu lacus varius, ultrices nunc nec, tempus nunc.
+							
+							Vivamus a quam suscipit magna pharetra finibus sit amet at nisi. Sed laoreet lectus eros, non pharetra orci malesuada eleifend. Donec gravida nec enim id fermentum. Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. Fusce tincidunt mauris vitae orci consectetur rutrum. Pellentesque semper quam urna, vel pretium ex luctus at. Morbi gravida vehicula est quis maximus. Sed aliquet iaculis velit, id consectetur dolor viverra id. Nunc at porttitor nisi. Nam efficitur viverra arcu at convallis. Mauris nec placerat ante. Maecenas facilisis tempus luctus. Fusce tellus felis, lacinia a lacus non, pulvinar sodales turpis.
+						</p>
+					</div>
+				
+				<div class ="JumpOffset" id = "ThirdLorem"></div>
+					<div>
+						<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer congue augue velit, at pulvinar magna gravida sit amet. Morbi in ullamcorper est. Ut sagittis velit velit, ut rhoncus purus suscipit eget. In dolor nisl, sagittis nec congue vel, blandit vitae quam. Ut ac orci volutpat, interdum ipsum a, dignissim dolor. Interdum et malesuada fames ac ante ipsum primis in faucibus. Donec sed fermentum sem. Aenean pharetra, nulla eget varius accumsan, diam orci malesuada erat, id congue lacus lacus eget massa. Donec vel neque vitae arcu consequat mattis. Quisque eu sem cursus erat egestas semper at eleifend mauris.
 
-	
+							Cras ut aliquam ex, ut luctus dui. Proin venenatis arcu mi, ultrices fringilla massa placerat a. Nam in tempus lacus, vitae suscipit enim. Nullam ipsum ante, dignissim nec ornare nec, hendrerit a nisl. Cras facilisis, ligula a venenatis venenatis, nisl tellus venenatis sapien, in aliquam nibh mauris at ligula. Sed condimentum orci et dapibus luctus. Curabitur eleifend vulputate libero a rhoncus. Etiam eget lobortis orci, eu tempor ligula. In faucibus leo nisi, at aliquam lacus malesuada eget. Aenean sit amet sodales sem. Proin posuere nisi felis, non luctus diam pellentesque non. Praesent ac purus fringilla, ornare nisl vitae, ullamcorper enim. Interdum et malesuada fames ac ante ipsum primis in faucibus.
+						</p>
 
-	<div class = "LoremText">
-		<br><br><br><br><br><br>
-			<div>
-				<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer congue augue velit, at pulvinar magna gravida sit amet. Morbi in ullamcorper est. Ut sagittis velit velit, ut rhoncus purus suscipit eget. In dolor nisl, sagittis nec congue vel, blandit vitae quam. Ut ac orci volutpat, interdum ipsum a, dignissim dolor. Interdum et malesuada fames ac ante ipsum primis in faucibus. Donec sed fermentum sem. Aenean pharetra, nulla eget varius accumsan, diam orci malesuada erat, id congue lacus lacus eget massa. Donec vel neque vitae arcu consequat mattis. Quisque eu sem cursus erat egestas semper at eleifend mauris.
+						<p>In sed feugiat ante. Integer rhoncus luctus ullamcorper. Duis at lorem eu nulla suscipit laoreet. Morbi viverra metus turpis, non pharetra augue sodales non. Ut lacus enim, luctus nec semper sed, ultrices in arcu. Cras porta ut ipsum id facilisis. Etiam a auctor diam. Curabitur lacinia, ante non luctus fringilla, sem ipsum venenatis risus, vitae bibendum ligula diam sed est. Aliquam malesuada lobortis blandit.
+							
+							Curabitur eget lobortis purus, at varius velit. Donec diam arcu, mollis vitae magna malesuada, tempus dapibus metus. Nulla non mauris tincidunt, ullamcorper lacus sed, finibus purus. Praesent malesuada est magna, ac vestibulum elit finibus a. Praesent et efficitur sapien, quis mattis dui. Vivamus rutrum erat nec sapien imperdiet, quis varius odio consectetur. Phasellus pellentesque malesuada vulputate. Integer malesuada mi sapien, eu euismod justo volutpat ut. Integer viverra neque aliquam dolor fermentum, at gravida magna porta. Ut eu lacus varius, ultrices nunc nec, tempus nunc.
+							
+							Vivamus a quam suscipit magna pharetra finibus sit amet at nisi. Sed laoreet lectus eros, non pharetra orci malesuada eleifend. Donec gravida nec enim id fermentum. Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. Fusce tincidunt mauris vitae orci consectetur rutrum. Pellentesque semper quam urna, vel pretium ex luctus at. Morbi gravida vehicula est quis maximus. Sed aliquet iaculis velit, id consectetur dolor viverra id. Nunc at porttitor nisi. Nam efficitur viverra arcu at convallis. Mauris nec placerat ante. Maecenas facilisis tempus luctus. Fusce tellus felis, lacinia a lacus non, pulvinar sodales turpis.
+						</p>
+					</div>
+				
+				<div class ="JumpOffset" id = "ForthLorem"></div>
+					<div>
+						<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer congue augue velit, at pulvinar magna gravida sit amet. Morbi in ullamcorper est. Ut sagittis velit velit, ut rhoncus purus suscipit eget. In dolor nisl, sagittis nec congue vel, blandit vitae quam. Ut ac orci volutpat, interdum ipsum a, dignissim dolor. Interdum et malesuada fames ac ante ipsum primis in faucibus. Donec sed fermentum sem. Aenean pharetra, nulla eget varius accumsan, diam orci malesuada erat, id congue lacus lacus eget massa. Donec vel neque vitae arcu consequat mattis. Quisque eu sem cursus erat egestas semper at eleifend mauris.
 
-					Cras ut aliquam ex, ut luctus dui. Proin venenatis arcu mi, ultrices fringilla massa placerat a. Nam in tempus lacus, vitae suscipit enim. Nullam ipsum ante, dignissim nec ornare nec, hendrerit a nisl. Cras facilisis, ligula a venenatis venenatis, nisl tellus venenatis sapien, in aliquam nibh mauris at ligula. Sed condimentum orci et dapibus luctus. Curabitur eleifend vulputate libero a rhoncus. Etiam eget lobortis orci, eu tempor ligula. In faucibus leo nisi, at aliquam lacus malesuada eget. Aenean sit amet sodales sem. Proin posuere nisi felis, non luctus diam pellentesque non. Praesent ac purus fringilla, ornare nisl vitae, ullamcorper enim. Interdum et malesuada fames ac ante ipsum primis in faucibus.
-				</p>
+							Cras ut aliquam ex, ut luctus dui. Proin venenatis arcu mi, ultrices fringilla massa placerat a. Nam in tempus lacus, vitae suscipit enim. Nullam ipsum ante, dignissim nec ornare nec, hendrerit a nisl. Cras facilisis, ligula a venenatis venenatis, nisl tellus venenatis sapien, in aliquam nibh mauris at ligula. Sed condimentum orci et dapibus luctus. Curabitur eleifend vulputate libero a rhoncus. Etiam eget lobortis orci, eu tempor ligula. In faucibus leo nisi, at aliquam lacus malesuada eget. Aenean sit amet sodales sem. Proin posuere nisi felis, non luctus diam pellentesque non. Praesent ac purus fringilla, ornare nisl vitae, ullamcorper enim. Interdum et malesuada fames ac ante ipsum primis in faucibus.
+						</p>
 
-				<p>In sed feugiat ante. Integer rhoncus luctus ullamcorper. Duis at lorem eu nulla suscipit laoreet. Morbi viverra metus turpis, non pharetra augue sodales non. Ut lacus enim, luctus nec semper sed, ultrices in arcu. Cras porta ut ipsum id facilisis. Etiam a auctor diam. Curabitur lacinia, ante non luctus fringilla, sem ipsum venenatis risus, vitae bibendum ligula diam sed est. Aliquam malesuada lobortis blandit.
-					
-					Curabitur eget lobortis purus, at varius velit. Donec diam arcu, mollis vitae magna malesuada, tempus dapibus metus. Nulla non mauris tincidunt, ullamcorper lacus sed, finibus purus. Praesent malesuada est magna, ac vestibulum elit finibus a. Praesent et efficitur sapien, quis mattis dui. Vivamus rutrum erat nec sapien imperdiet, quis varius odio consectetur. Phasellus pellentesque malesuada vulputate. Integer malesuada mi sapien, eu euismod justo volutpat ut. Integer viverra neque aliquam dolor fermentum, at gravida magna porta. Ut eu lacus varius, ultrices nunc nec, tempus nunc.
-					
-					Vivamus a quam suscipit magna pharetra finibus sit amet at nisi. Sed laoreet lectus eros, non pharetra orci malesuada eleifend. Donec gravida nec enim id fermentum. Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. Fusce tincidunt mauris vitae orci consectetur rutrum. Pellentesque semper quam urna, vel pretium ex luctus at. Morbi gravida vehicula est quis maximus. Sed aliquet iaculis velit, id consectetur dolor viverra id. Nunc at porttitor nisi. Nam efficitur viverra arcu at convallis. Mauris nec placerat ante. Maecenas facilisis tempus luctus. Fusce tellus felis, lacinia a lacus non, pulvinar sodales turpis.
-				</p>
-			</div>
-		
-		<div class ="JumpOffset" id = "SecondLorem"></div>
-			<div>
-				<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer congue augue velit, at pulvinar magna gravida sit amet. Morbi in ullamcorper est. Ut sagittis velit velit, ut rhoncus purus suscipit eget. In dolor nisl, sagittis nec congue vel, blandit vitae quam. Ut ac orci volutpat, interdum ipsum a, dignissim dolor. Interdum et malesuada fames ac ante ipsum primis in faucibus. Donec sed fermentum sem. Aenean pharetra, nulla eget varius accumsan, diam orci malesuada erat, id congue lacus lacus eget massa. Donec vel neque vitae arcu consequat mattis. Quisque eu sem cursus erat egestas semper at eleifend mauris.
+						<p>In sed feugiat ante. Integer rhoncus luctus ullamcorper. Duis at lorem eu nulla suscipit laoreet. Morbi viverra metus turpis, non pharetra augue sodales non. Ut lacus enim, luctus nec semper sed, ultrices in arcu. Cras porta ut ipsum id facilisis. Etiam a auctor diam. Curabitur lacinia, ante non luctus fringilla, sem ipsum venenatis risus, vitae bibendum ligula diam sed est. Aliquam malesuada lobortis blandit.
+							
+							Curabitur eget lobortis purus, at varius velit. Donec diam arcu, mollis vitae magna malesuada, tempus dapibus metus. Nulla non mauris tincidunt, ullamcorper lacus sed, finibus purus. Praesent malesuada est magna, ac vestibulum elit finibus a. Praesent et efficitur sapien, quis mattis dui. Vivamus rutrum erat nec sapien imperdiet, quis varius odio consectetur. Phasellus pellentesque malesuada vulputate. Integer malesuada mi sapien, eu euismod justo volutpat ut. Integer viverra neque aliquam dolor fermentum, at gravida magna porta. Ut eu lacus varius, ultrices nunc nec, tempus nunc.
+							
+							Vivamus a quam suscipit magna pharetra finibus sit amet at nisi. Sed laoreet lectus eros, non pharetra orci malesuada eleifend. Donec gravida nec enim id fermentum. Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. Fusce tincidunt mauris vitae orci consectetur rutrum. Pellentesque semper quam urna, vel pretium ex luctus at. Morbi gravida vehicula est quis maximus. Sed aliquet iaculis velit, id consectetur dolor viverra id. Nunc at porttitor nisi. Nam efficitur viverra arcu at convallis. Mauris nec placerat ante. Maecenas facilisis tempus luctus. Fusce tellus felis, lacinia a lacus non, pulvinar sodales turpis.
+						</p>
+					</div>
+				
+				<div class ="JumpOffset" id = "FifthLorem"></div>
+					<div>
+						<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer congue augue velit, at pulvinar magna gravida sit amet. Morbi in ullamcorper est. Ut sagittis velit velit, ut rhoncus purus suscipit eget. In dolor nisl, sagittis nec congue vel, blandit vitae quam. Ut ac orci volutpat, interdum ipsum a, dignissim dolor. Interdum et malesuada fames ac ante ipsum primis in faucibus. Donec sed fermentum sem. Aenean pharetra, nulla eget varius accumsan, diam orci malesuada erat, id congue lacus lacus eget massa. Donec vel neque vitae arcu consequat mattis. Quisque eu sem cursus erat egestas semper at eleifend mauris.
 
-					Cras ut aliquam ex, ut luctus dui. Proin venenatis arcu mi, ultrices fringilla massa placerat a. Nam in tempus lacus, vitae suscipit enim. Nullam ipsum ante, dignissim nec ornare nec, hendrerit a nisl. Cras facilisis, ligula a venenatis venenatis, nisl tellus venenatis sapien, in aliquam nibh mauris at ligula. Sed condimentum orci et dapibus luctus. Curabitur eleifend vulputate libero a rhoncus. Etiam eget lobortis orci, eu tempor ligula. In faucibus leo nisi, at aliquam lacus malesuada eget. Aenean sit amet sodales sem. Proin posuere nisi felis, non luctus diam pellentesque non. Praesent ac purus fringilla, ornare nisl vitae, ullamcorper enim. Interdum et malesuada fames ac ante ipsum primis in faucibus.
-				</p>
+							Cras ut aliquam ex, ut luctus dui. Proin venenatis arcu mi, ultrices fringilla massa placerat a. Nam in tempus lacus, vitae suscipit enim. Nullam ipsum ante, dignissim nec ornare nec, hendrerit a nisl. Cras facilisis, ligula a venenatis venenatis, nisl tellus venenatis sapien, in aliquam nibh mauris at ligula. Sed condimentum orci et dapibus luctus. Curabitur eleifend vulputate libero a rhoncus. Etiam eget lobortis orci, eu tempor ligula. In faucibus leo nisi, at aliquam lacus malesuada eget. Aenean sit amet sodales sem. Proin posuere nisi felis, non luctus diam pellentesque non. Praesent ac purus fringilla, ornare nisl vitae, ullamcorper enim. Interdum et malesuada fames ac ante ipsum primis in faucibus.
+						</p>
 
-				<p>In sed feugiat ante. Integer rhoncus luctus ullamcorper. Duis at lorem eu nulla suscipit laoreet. Morbi viverra metus turpis, non pharetra augue sodales non. Ut lacus enim, luctus nec semper sed, ultrices in arcu. Cras porta ut ipsum id facilisis. Etiam a auctor diam. Curabitur lacinia, ante non luctus fringilla, sem ipsum venenatis risus, vitae bibendum ligula diam sed est. Aliquam malesuada lobortis blandit.
-					
-					Curabitur eget lobortis purus, at varius velit. Donec diam arcu, mollis vitae magna malesuada, tempus dapibus metus. Nulla non mauris tincidunt, ullamcorper lacus sed, finibus purus. Praesent malesuada est magna, ac vestibulum elit finibus a. Praesent et efficitur sapien, quis mattis dui. Vivamus rutrum erat nec sapien imperdiet, quis varius odio consectetur. Phasellus pellentesque malesuada vulputate. Integer malesuada mi sapien, eu euismod justo volutpat ut. Integer viverra neque aliquam dolor fermentum, at gravida magna porta. Ut eu lacus varius, ultrices nunc nec, tempus nunc.
-					
-					Vivamus a quam suscipit magna pharetra finibus sit amet at nisi. Sed laoreet lectus eros, non pharetra orci malesuada eleifend. Donec gravida nec enim id fermentum. Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. Fusce tincidunt mauris vitae orci consectetur rutrum. Pellentesque semper quam urna, vel pretium ex luctus at. Morbi gravida vehicula est quis maximus. Sed aliquet iaculis velit, id consectetur dolor viverra id. Nunc at porttitor nisi. Nam efficitur viverra arcu at convallis. Mauris nec placerat ante. Maecenas facilisis tempus luctus. Fusce tellus felis, lacinia a lacus non, pulvinar sodales turpis.
-				</p>
-			</div>
-		
-		<div class ="JumpOffset" id = "ThirdLorem"></div>
-			<div>
-				<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer congue augue velit, at pulvinar magna gravida sit amet. Morbi in ullamcorper est. Ut sagittis velit velit, ut rhoncus purus suscipit eget. In dolor nisl, sagittis nec congue vel, blandit vitae quam. Ut ac orci volutpat, interdum ipsum a, dignissim dolor. Interdum et malesuada fames ac ante ipsum primis in faucibus. Donec sed fermentum sem. Aenean pharetra, nulla eget varius accumsan, diam orci malesuada erat, id congue lacus lacus eget massa. Donec vel neque vitae arcu consequat mattis. Quisque eu sem cursus erat egestas semper at eleifend mauris.
+						<p>In sed feugiat ante. Integer rhoncus luctus ullamcorper. Duis at lorem eu nulla suscipit laoreet. Morbi viverra metus turpis, non pharetra augue sodales non. Ut lacus enim, luctus nec semper sed, ultrices in arcu. Cras porta ut ipsum id facilisis. Etiam a auctor diam. Curabitur lacinia, ante non luctus fringilla, sem ipsum venenatis risus, vitae bibendum ligula diam sed est. Aliquam malesuada lobortis blandit.
+							
+							Curabitur eget lobortis purus, at varius velit. Donec diam arcu, mollis vitae magna malesuada, tempus dapibus metus. Nulla non mauris tincidunt, ullamcorper lacus sed, finibus purus. Praesent malesuada est magna, ac vestibulum elit finibus a. Praesent et efficitur sapien, quis mattis dui. Vivamus rutrum erat nec sapien imperdiet, quis varius odio consectetur. Phasellus pellentesque malesuada vulputate. Integer malesuada mi sapien, eu euismod justo volutpat ut. Integer viverra neque aliquam dolor fermentum, at gravida magna porta. Ut eu lacus varius, ultrices nunc nec, tempus nunc.
+							
+							Vivamus a quam suscipit magna pharetra finibus sit amet at nisi. Sed laoreet lectus eros, non pharetra orci malesuada eleifend. Donec gravida nec enim id fermentum. Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. Fusce tincidunt mauris vitae orci consectetur rutrum. Pellentesque semper quam urna, vel pretium ex luctus at. Morbi gravida vehicula est quis maximus. Sed aliquet iaculis velit, id consectetur dolor viverra id. Nunc at porttitor nisi. Nam efficitur viverra arcu at convallis. Mauris nec placerat ante. Maecenas facilisis tempus luctus. Fusce tellus felis, lacinia a lacus non, pulvinar sodales turpis.
+						</p>
+					</div>
 
-					Cras ut aliquam ex, ut luctus dui. Proin venenatis arcu mi, ultrices fringilla massa placerat a. Nam in tempus lacus, vitae suscipit enim. Nullam ipsum ante, dignissim nec ornare nec, hendrerit a nisl. Cras facilisis, ligula a venenatis venenatis, nisl tellus venenatis sapien, in aliquam nibh mauris at ligula. Sed condimentum orci et dapibus luctus. Curabitur eleifend vulputate libero a rhoncus. Etiam eget lobortis orci, eu tempor ligula. In faucibus leo nisi, at aliquam lacus malesuada eget. Aenean sit amet sodales sem. Proin posuere nisi felis, non luctus diam pellentesque non. Praesent ac purus fringilla, ornare nisl vitae, ullamcorper enim. Interdum et malesuada fames ac ante ipsum primis in faucibus.
-				</p>
-
-				<p>In sed feugiat ante. Integer rhoncus luctus ullamcorper. Duis at lorem eu nulla suscipit laoreet. Morbi viverra metus turpis, non pharetra augue sodales non. Ut lacus enim, luctus nec semper sed, ultrices in arcu. Cras porta ut ipsum id facilisis. Etiam a auctor diam. Curabitur lacinia, ante non luctus fringilla, sem ipsum venenatis risus, vitae bibendum ligula diam sed est. Aliquam malesuada lobortis blandit.
-					
-					Curabitur eget lobortis purus, at varius velit. Donec diam arcu, mollis vitae magna malesuada, tempus dapibus metus. Nulla non mauris tincidunt, ullamcorper lacus sed, finibus purus. Praesent malesuada est magna, ac vestibulum elit finibus a. Praesent et efficitur sapien, quis mattis dui. Vivamus rutrum erat nec sapien imperdiet, quis varius odio consectetur. Phasellus pellentesque malesuada vulputate. Integer malesuada mi sapien, eu euismod justo volutpat ut. Integer viverra neque aliquam dolor fermentum, at gravida magna porta. Ut eu lacus varius, ultrices nunc nec, tempus nunc.
-					
-					Vivamus a quam suscipit magna pharetra finibus sit amet at nisi. Sed laoreet lectus eros, non pharetra orci malesuada eleifend. Donec gravida nec enim id fermentum. Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. Fusce tincidunt mauris vitae orci consectetur rutrum. Pellentesque semper quam urna, vel pretium ex luctus at. Morbi gravida vehicula est quis maximus. Sed aliquet iaculis velit, id consectetur dolor viverra id. Nunc at porttitor nisi. Nam efficitur viverra arcu at convallis. Mauris nec placerat ante. Maecenas facilisis tempus luctus. Fusce tellus felis, lacinia a lacus non, pulvinar sodales turpis.
-				</p>
-			</div>
-		
-		<div class ="JumpOffset" id = "ForthLorem"></div>
-			<div>
-				<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer congue augue velit, at pulvinar magna gravida sit amet. Morbi in ullamcorper est. Ut sagittis velit velit, ut rhoncus purus suscipit eget. In dolor nisl, sagittis nec congue vel, blandit vitae quam. Ut ac orci volutpat, interdum ipsum a, dignissim dolor. Interdum et malesuada fames ac ante ipsum primis in faucibus. Donec sed fermentum sem. Aenean pharetra, nulla eget varius accumsan, diam orci malesuada erat, id congue lacus lacus eget massa. Donec vel neque vitae arcu consequat mattis. Quisque eu sem cursus erat egestas semper at eleifend mauris.
-
-					Cras ut aliquam ex, ut luctus dui. Proin venenatis arcu mi, ultrices fringilla massa placerat a. Nam in tempus lacus, vitae suscipit enim. Nullam ipsum ante, dignissim nec ornare nec, hendrerit a nisl. Cras facilisis, ligula a venenatis venenatis, nisl tellus venenatis sapien, in aliquam nibh mauris at ligula. Sed condimentum orci et dapibus luctus. Curabitur eleifend vulputate libero a rhoncus. Etiam eget lobortis orci, eu tempor ligula. In faucibus leo nisi, at aliquam lacus malesuada eget. Aenean sit amet sodales sem. Proin posuere nisi felis, non luctus diam pellentesque non. Praesent ac purus fringilla, ornare nisl vitae, ullamcorper enim. Interdum et malesuada fames ac ante ipsum primis in faucibus.
-				</p>
-
-				<p>In sed feugiat ante. Integer rhoncus luctus ullamcorper. Duis at lorem eu nulla suscipit laoreet. Morbi viverra metus turpis, non pharetra augue sodales non. Ut lacus enim, luctus nec semper sed, ultrices in arcu. Cras porta ut ipsum id facilisis. Etiam a auctor diam. Curabitur lacinia, ante non luctus fringilla, sem ipsum venenatis risus, vitae bibendum ligula diam sed est. Aliquam malesuada lobortis blandit.
-					
-					Curabitur eget lobortis purus, at varius velit. Donec diam arcu, mollis vitae magna malesuada, tempus dapibus metus. Nulla non mauris tincidunt, ullamcorper lacus sed, finibus purus. Praesent malesuada est magna, ac vestibulum elit finibus a. Praesent et efficitur sapien, quis mattis dui. Vivamus rutrum erat nec sapien imperdiet, quis varius odio consectetur. Phasellus pellentesque malesuada vulputate. Integer malesuada mi sapien, eu euismod justo volutpat ut. Integer viverra neque aliquam dolor fermentum, at gravida magna porta. Ut eu lacus varius, ultrices nunc nec, tempus nunc.
-					
-					Vivamus a quam suscipit magna pharetra finibus sit amet at nisi. Sed laoreet lectus eros, non pharetra orci malesuada eleifend. Donec gravida nec enim id fermentum. Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. Fusce tincidunt mauris vitae orci consectetur rutrum. Pellentesque semper quam urna, vel pretium ex luctus at. Morbi gravida vehicula est quis maximus. Sed aliquet iaculis velit, id consectetur dolor viverra id. Nunc at porttitor nisi. Nam efficitur viverra arcu at convallis. Mauris nec placerat ante. Maecenas facilisis tempus luctus. Fusce tellus felis, lacinia a lacus non, pulvinar sodales turpis.
-				</p>
-			</div>
-		
-		<div class ="JumpOffset" id = "FifthLorem"></div>
-			<div>
-				<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer congue augue velit, at pulvinar magna gravida sit amet. Morbi in ullamcorper est. Ut sagittis velit velit, ut rhoncus purus suscipit eget. In dolor nisl, sagittis nec congue vel, blandit vitae quam. Ut ac orci volutpat, interdum ipsum a, dignissim dolor. Interdum et malesuada fames ac ante ipsum primis in faucibus. Donec sed fermentum sem. Aenean pharetra, nulla eget varius accumsan, diam orci malesuada erat, id congue lacus lacus eget massa. Donec vel neque vitae arcu consequat mattis. Quisque eu sem cursus erat egestas semper at eleifend mauris.
-
-					Cras ut aliquam ex, ut luctus dui. Proin venenatis arcu mi, ultrices fringilla massa placerat a. Nam in tempus lacus, vitae suscipit enim. Nullam ipsum ante, dignissim nec ornare nec, hendrerit a nisl. Cras facilisis, ligula a venenatis venenatis, nisl tellus venenatis sapien, in aliquam nibh mauris at ligula. Sed condimentum orci et dapibus luctus. Curabitur eleifend vulputate libero a rhoncus. Etiam eget lobortis orci, eu tempor ligula. In faucibus leo nisi, at aliquam lacus malesuada eget. Aenean sit amet sodales sem. Proin posuere nisi felis, non luctus diam pellentesque non. Praesent ac purus fringilla, ornare nisl vitae, ullamcorper enim. Interdum et malesuada fames ac ante ipsum primis in faucibus.
-				</p>
-
-				<p>In sed feugiat ante. Integer rhoncus luctus ullamcorper. Duis at lorem eu nulla suscipit laoreet. Morbi viverra metus turpis, non pharetra augue sodales non. Ut lacus enim, luctus nec semper sed, ultrices in arcu. Cras porta ut ipsum id facilisis. Etiam a auctor diam. Curabitur lacinia, ante non luctus fringilla, sem ipsum venenatis risus, vitae bibendum ligula diam sed est. Aliquam malesuada lobortis blandit.
-					
-					Curabitur eget lobortis purus, at varius velit. Donec diam arcu, mollis vitae magna malesuada, tempus dapibus metus. Nulla non mauris tincidunt, ullamcorper lacus sed, finibus purus. Praesent malesuada est magna, ac vestibulum elit finibus a. Praesent et efficitur sapien, quis mattis dui. Vivamus rutrum erat nec sapien imperdiet, quis varius odio consectetur. Phasellus pellentesque malesuada vulputate. Integer malesuada mi sapien, eu euismod justo volutpat ut. Integer viverra neque aliquam dolor fermentum, at gravida magna porta. Ut eu lacus varius, ultrices nunc nec, tempus nunc.
-					
-					Vivamus a quam suscipit magna pharetra finibus sit amet at nisi. Sed laoreet lectus eros, non pharetra orci malesuada eleifend. Donec gravida nec enim id fermentum. Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. Fusce tincidunt mauris vitae orci consectetur rutrum. Pellentesque semper quam urna, vel pretium ex luctus at. Morbi gravida vehicula est quis maximus. Sed aliquet iaculis velit, id consectetur dolor viverra id. Nunc at porttitor nisi. Nam efficitur viverra arcu at convallis. Mauris nec placerat ante. Maecenas facilisis tempus luctus. Fusce tellus felis, lacinia a lacus non, pulvinar sodales turpis.
-				</p>
-			</div>
-
-	</div>
-	<script src="Nav.js"></script>
+			</div> -->
+			<script src="Nav.js"></script>
 
 
 		<div class="footer">
-			 Copyrighted © 2020 by Deniss Kirillovs
+			Copyrighted © 2020 by Deniss Kirillovs
 		</div>
-
+		</div>
 	
 
 
