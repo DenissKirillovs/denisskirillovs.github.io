@@ -25,7 +25,7 @@ html{
 {
 	width: 100%;
 	background-color: grey;
-	color: white;
+	color: rgb(200, 200, 200);
 	text-align: center;
 	padding-top: 12px;
 	padding-bottom: 12px;
@@ -97,10 +97,10 @@ body
 	padding-top: 15px;
 }
 
-#MyProjects 
+/* #MyProjects 
 {
 	margin-top: 25;
-}
+} */
 
 .section {
 	width: 100%;
@@ -185,12 +185,107 @@ a, a:visited a:active
 	display: table-cell;
 	vertical-align: middle;
 }
+
 /* END OF MY PROJECTS HEAD*/
 
 /* START OF PROJECTS CONTENT*/
 
+.gallery 
+{
+	display: inline-block;
+}
+
+.gallery img 
+{
+	width: 50%;
+	height: auto;
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
+}
+
+.gallery-description 
+{
+	padding : 15px;
+	text-align: center;
+	padding-left: 10%;
+	padding-right: 10%;
+	color: white;
+	padding-bottom: 20px;
+}
+
+.Projects-content-container 
+{
+	padding: 15px 15px;
+	float: left;
+	width: 50%;
+}
+
+@media only screen and (max-width: 800px)
+{
+	.Projects-content-container
+	{
+		margin: 6px 0;
+	}
+
+}
+
+@media only screen and (max-width: 1070px)
+{
+	.Projects-content-container
+	{
+		width: 100%;
+	}
+
+}
 
 /* END OF PROJECTS CONTENT */
+
+/* START OF THE PROJECT PAGE */
+
+.project-container
+{
+	padding-top: 75px;
+}
+
+.project-header
+{
+	text-align: center;
+	text-decoration: none;
+	color: rgb(200, 200, 200);
+}
+
+.project-image
+{
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
+	text-align: center;
+}
+
+.project-description
+{
+	color: white;
+	font-family: 'Work Sans', sans-serif;
+	font-weight: 300;
+	margin: 3% 20% 0%;
+	font-size: 20px;
+}
+
+.bullet-points
+{
+	padding-left: 7%;
+	color: white;
+	font-family: 'Work Sans', sans-serif;
+	font-weight: 300;
+	font-size: 20px;
+}
+
+
+
+
+/* END OF THE PROJECT PAGE */
+
 
 
 /* Container properties */
@@ -345,7 +440,7 @@ nav a:hover
 
 
 /* Hide/block the Hamburger Menu and Icon when above 1070px */
-@media only screen and (max-width: 720px) 
+@media only screen and (max-width: 1070px) 
 {
 	.Fullscreen
 	{
@@ -390,8 +485,8 @@ nav a:hover
 .slideshow-container {
   position: relative;
   margin: auto;
-  top: 56px;
-  width: 95%;
+  top: 26px;
+  width: 100%;
   z-index: 2;
   padding-top: 30px;
 }
