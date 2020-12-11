@@ -42,11 +42,6 @@ body
 	animation: fadeIn 2s;
 }
 
-.footer-padding
-{
-	margin-top: 25px;
-}
-
 /* Fade In animation using simple opacity keyframes from and to */
 @keyframes fadeIn {
 
@@ -188,55 +183,46 @@ a, a:visited a:active
 
 /* END OF MY PROJECTS HEAD*/
 
-/* START OF PROJECTS CONTENT*/
+/* START OF MAIN PROJECTS CONTENT*/
 
-.gallery 
+.main-project-container
 {
-	display: inline-block;
+	margin: 15px;
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: center;
 }
 
-.gallery img 
+/* .gallery img 
 {
-	width: 50%;
+	width: 75%;
 	height: auto;
-	display: block;
+	display: flex;
 	margin-left: auto;
 	margin-right: auto;
-}
+} */
 
 .gallery-description 
 {
-	padding : 15px;
-	text-align: center;
-	padding-left: 10%;
-	padding-right: 10%;
+	padding-top: 9px;
+	padding-left: 9px;
+	padding-right: 9px;
 	color: white;
-	padding-bottom: 20px;
+	/* padding-bottom: 20px; */
 }
 
-.Projects-content-container 
+.gallery-image
 {
-	padding: 15px 15px;
-	float: left;
-	width: 50%;
+	width: 75%;
+	height: auto;
+	display: flex;
+	/* margin-left: auto;
+	margin-right: auto; */
 }
 
-@media only screen and (max-width: 800px)
+.gallery
 {
-	.Projects-content-container
-	{
-		margin: 6px 0;
-	}
-
-}
-
-@media only screen and (max-width: 1070px)
-{
-	.Projects-content-container
-	{
-		width: 100%;
-	}
-
+	padding: 50px;
 }
 
 /* END OF PROJECTS CONTENT */
@@ -252,7 +238,7 @@ a, a:visited a:active
 {
 	text-align: center;
 	text-decoration: none;
-	color: rgb(200, 200, 200);
+	color: white;
 }
 
 .project-image
@@ -268,8 +254,9 @@ a, a:visited a:active
 	color: white;
 	font-family: 'Work Sans', sans-serif;
 	font-weight: 300;
-	margin: 3% 20% 0%;
+	margin: 0% 25% 0%;
 	font-size: 20px;
+	padding-top: 32px;
 }
 
 .bullet-points
@@ -279,12 +266,60 @@ a, a:visited a:active
 	font-family: 'Work Sans', sans-serif;
 	font-weight: 300;
 	font-size: 20px;
+	padding-bottom: 32px;
+}
+/* END OF THE PROJECT PAGE */
+
+/* START OF PERSONAL WORK */
+
+.padding-top
+{
+	padding-top: 69px;
 }
 
+.model-viewer
+{
+	float: left;
+	padding: 62px;
+}
 
+#model
+{
+	min-height: 350px;
+	min-width: 350px;
+}
 
+.models-container
+{
+  margin: 15px;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+.models-content-container
+{
+	float: left;
+	display: flex;
+}
 
-/* END OF THE PROJECT PAGE */
+.models-name
+{
+	color: white;
+	font-family: 'Work Sans', sans-serif;
+	font-weight: 300;
+	font-size: 20px;
+	text-align: center;
+}
+
+.models-description
+{
+	color: white;
+	font-family: 'Work Sans', sans-serif;
+	font-weight: 300;
+	font-size: 20px;
+}
+
+/* END OF PERSONAL WORK */
 
 
 
@@ -470,7 +505,7 @@ nav a:hover
 .JumpOffset {
 	display: block;
 	margin-top: -52px;
-	height: 47px;
+	height: 40px;
 	visibility: transparent;
 }
 
@@ -492,7 +527,7 @@ nav a:hover
 }
 
 /* Hide the images by default */
-.mySlides {
+.Slideshow {
   display: none;
 }
 

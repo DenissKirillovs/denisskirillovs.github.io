@@ -1,0 +1,237 @@
+/* Setting the websites marging and padding to 0 from the start */
+html, body {
+    margin: 0;
+    padding: 0;
+    width: 100%;
+	height: 100%;
+	box-sizing: border-box;
+  }
+
+html{
+	scroll-behavior: smooth;
+}
+
+/* Styling the footer (My right reserved section) */
+.footer
+{
+	left: 0;
+	bottom: 0;
+	width: 100%;
+	background-color: grey;
+	color: white;
+	text-align: center;
+	padding: 15;
+}
+
+/* Styling the body (entire page) */
+body 
+{
+	margin: 0%;
+	background: #333;
+	font-family: 'Work Sans', sans-serif;
+	font-weight: 400;
+	animation: fadeIn 2s;
+}
+
+/* Fade In animation using simple opacity keyframes from and to */
+@keyframes fadeIn {
+
+	from {
+		opacity: 0;
+	}
+
+	to {
+		opacity: 1;
+	}
+
+}
+
+/* Styling Lorem Ipsum text for future reference */
+.LoremText {
+	color: white;
+	font-family: 'Work Sans', sans-serif;
+	font-weight: 300;
+	margin: 0% 10% 0%;
+	font-size: 20px;
+}
+
+/* Container properties */
+.container 
+{
+	width: 80%;
+	margin: 0;
+}
+
+/* Clear fixing the header so the header is together with the text */
+header::after 
+{
+	content: '';
+	display: table;
+	clear: both;
+}
+
+/* Header properties section  */
+header 
+{
+	background-color: rgb(200, 200, 200);
+	width: 100%;
+	position: fixed;
+	opacity: 1;
+}
+
+/* Floating everything in <nav> to the middle */
+nav
+{
+	float: middle;
+}
+
+/* Margin and Padding for unlisted items */
+nav ul 
+{
+	margin: 0;
+	padding: 0;
+	list-style: none;
+}
+
+/* Padding on the header */
+nav li 
+{
+	display: inline-block;
+	margin-left: 50px;
+	padding-top: 20px;
+	padding-bottom: 20px;
+	position: relative;
+}
+
+/* Header text properties */
+nav a 
+{
+	color: #444;
+	text-decoration: none;
+	text-transform: uppercase;
+	font-size: 14px;
+}
+
+/* On hover line colour */
+nav a:hover 
+{
+	
+	color: #000;
+	
+}
+
+/* The on hover over header properties and transition animation (start from 0) */
+.Fullscreen a::before
+{
+	content: '';
+	display: block;
+	height: 5px;
+	width: 100%;
+	background-color: #444;
+	
+	position: absolute;
+	top: 0;
+	width: 0%;
+	
+	transition: all ease-in-out 250ms;
+}
+
+/* The fully completed line on hover (end on 1) */
+.Fullscreen a:hover::before 
+{
+	width: 100%;
+}
+
+/* Hide everything inside the navigation menu */
+#subMyName, #subAboutMe, #subProjects, #subPersonalWork, #subContact, #subResume 
+{	
+	display: none;
+}
+
+
+/* Style the Navigation menu */
+.MyLinks {
+	overflow: hidden;
+	background-color: rgb(200, 200, 200);
+	position: relative;
+	display: block;
+	width: 100%;
+	position: fixed;
+	opacity: 0.97;
+}
+
+/* Styling the navigation menu links */
+.MyLinks a {
+	color: black;
+	padding: 14px 16px;
+	text-decoration: none;
+	font-size: 14px;
+	display: block;
+}
+
+.MyLinks li:first-child
+
+
+/* Hiding the phone menus from the start of launch */
+.MyLinks 
+{
+	display: none;	
+}
+
+/* Changing colour of the links when hovered over */
+.MyLinks a:hover {
+	background-color: #ddd;
+	color: black;
+}
+
+/* Styling of the Hamburger Icon */
+#icon {
+	display: block;
+	position: absolute;
+	right: 0;
+	top: 0;
+	font-size: 40px;
+	position: fixed;
+}
+
+/* Changing colour of icon  */
+#icon {
+	display: none;
+	color: red;
+}
+
+/* CHANGE COLOUR OF HAMBURGER ON HOVER (UNFINISHED)
+#icon a.hover {
+	background-color: red;
+} */
+
+
+
+/* Hide/block the Hamburger Menu and Icon when above 1070px */
+@media only screen and (max-width: 1070px) 
+{
+	.Fullscreen
+	{
+		display: none;
+	}
+
+	.MyLinks 
+	{
+		display: block;	
+	}
+
+	#icon
+	{
+		display: block;
+	}
+
+}
+
+.JumpOffset {
+	display: block;
+	margin-top: 0px;
+	height: 50px;
+	visibility: hidden;
+}
+
+
