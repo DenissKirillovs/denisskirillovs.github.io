@@ -430,6 +430,7 @@ nav a:hover
 	opacity: 0.97;
 }
 
+
 /* Styling the navigation menu links */
 .MyLinks a {
 	color: black;
@@ -459,6 +460,8 @@ nav a:hover
 	top: 0;
 	font-size: 40px;
 	position: fixed;
+	padding-right: 10px;
+	padding-top: 5px;
 }
 
 /* Changing colour of icon  */
