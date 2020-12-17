@@ -1,8 +1,9 @@
-function closehamburger()
+// HAMBURGER MENU CLOSE ON CLICK FUNCTION
+function closehamburger() //Play this function when it is called
 {
-	var x = document.getElementById("subMyName");
-	x.style.display = "none";
-	
+	var x = document.getElementById("subMyName"); //Getting the element id called subMyName
+    x.style.display = "none";                     //And setting it's display to none
+    	
 	var x = document.getElementById("subAboutMe");
 	x.style.display = "none";
 	
@@ -19,16 +20,18 @@ function closehamburger()
 	x.style.display = "none";
 }
 
-function hamburgerMenu()
+// END OF HAMBURGER MENU CLOSE ON CLICK FUNCTION
+
+function hamburgerMenu() //Play this function when user presses the hamburger menu icon
 {
-    var x = document.getElementById("subMyName");
-    if (x.style.display ==="block") 
+    var x = document.getElementById("subMyName"); //Get the element by id called subMyName
+    if (x.style.display ==="block")               //If it's display is block ("block" by default in css)
     {
-        x.style.display = "none";
+        x.style.display = "none";                 //Set it's display to none
     }
     else 
     {
-        x.style.display = "block";
+        x.style.display = "block";                //If anything else, set its display to block
     }
 
 
@@ -92,12 +95,12 @@ function hamburgerMenu()
 var slideIndex = 1;
 showSlides(slideIndex);
 
-// Next/previous buttons
+// Next and previous buttons
 function plusSlides(n) {
   showSlides(slideIndex += n);
 }
 
-// Thumbnail image buttons
+// Slideshow image buttons
 function currentSlide(n) {
   showSlides(slideIndex = n);
 }
