@@ -15,6 +15,9 @@ function closehamburger() //Play this function when it is called
 	
 	var x = document.getElementById("subContact");
 	x.style.display = "none";
+
+    var x = document.getElementById("subCV");
+	x.style.display = "none";
 	
 	var x = document.getElementById("subResume");
 	x.style.display = "none";
@@ -66,6 +69,16 @@ function hamburgerMenu() //Play this function when user presses the hamburger me
     }
 
     var x = document.getElementById("subContact");
+    if (x.style.display ==="block") 
+    {
+        x.style.display = "none";
+    }
+    else 
+    {
+        x.style.display = "block";
+    }
+
+    var x = document.getElementById("subCV");
     if (x.style.display ==="block") 
     {
         x.style.display = "none";

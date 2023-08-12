@@ -1,7 +1,7 @@
 <html id = "Top">
 
 	<head>
-		<title>Deniss Kirillovs - Game Programming and Design Portfolio</title>
+		<title>Deniss Kirillovs - Games Programming and Design Portfolio</title>
 		<link rel ="stylesheet" type="text/css" href ="css/style.css">	
 		<link href="https://fonts.googleapis.com/css?family=Work+Sans:400" rel="stylesheet">
 		<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
@@ -27,9 +27,10 @@
 									<li><a href="#Projects">Projects</a></li>
 									<li><a href="#Bottom">Contact</a></li>									
 									<li><a href="/personal-work.html">Personal Work</a></li>
-									<li><a href="downloads/Job CV Application.docx">Resume</a></li>
+									<li><a href="downloads/DenissKirillovs_CV.pdf">&nbsp&nbsp CV &nbsp&nbsp</a></li>
+									<li><a href="downloads/DenissKirillovs_CV.pdf">Resume</a></li>
 								</div>
-							</ul>
+							</ul> 
 						</div>
 						
 						
@@ -39,7 +40,8 @@
 							<a id = "subProjects" href="#Projects" onclick = "closehamburger()">Projects</a>
 							<a id = "subContact" href="#Bottom" onclick = "closehamburger()">Contact</a>
 							<a id = "subPersonalWork" href="/personal-work.html" onclick = "closehamburger()">Personal Work</a>
-							<a id = "subResume" href="downloads/Job CV Application.docx" onclick = "closehamburger()">Resume</a>				
+							<a id = "subCV" href="downloads/DenissKirillovs_CV.pdf" target="_blank" rel="noopener noreferrer" onclick = "closehamburger()">CV</a>	
+							<a id = "subResume" href="downloads/DenissKirillovs_CV.pdf" target="_blank" rel="noopener noreferrer" onclick = "closehamburger()">Resume</a>			
 						</div>
 						<a href="javascript:void(0);" id ="icon" onclick="hamburgerMenu()">
 							<i class="fa fa-bars"></i>
@@ -55,50 +57,56 @@
 				<div class="Slideshow fade">
 					<div class="numbertext">1 / 4</div>
 					<a href ="/Project1.html"> <img src="images/ProjectImage.png" style="width:100%"></a>
-					<div class="text">Unreal Engine 4 University Project</div>
 				</div>
 			
 				<div class="Slideshow fade">
 					<div class="numbertext">2 / 4</div>
 					<a href ="/Project2.html"> <img src="images/ProjectPlaceholderImage.png" style="width:100%"></a>
-					<div class="text">Placeholder Game Project #2</div>
 				</div>
 			
 				<div class="Slideshow fade">
 					<div class="numbertext">3 / 4</div>
 					<a href ="/Project3.html"> <img src="images/ProjectPlaceholderImage.png" style="width:100%"></a>
-					<div class="text">Placeholder Game Project #3</div>
 				</div>
 
 				<div class="Slideshow fade">
 					<div class="numbertext">4 / 4</div>
-					<a href ="/Project4.html"> <img src="images/ProjectPlaceholderImage.png" style="width:100%"></a>
-					<div class="text">Placeholder Game Project #4</div>
+					<a href ="/Project3.html"> <img src="images/ProjectPlaceholderImage.png" style="width:100%"></a>
 				</div>
-			
 				<a class="prev" onclick="plusSlides(-1)">&#10094;</a>
 				<a class="next" onclick="plusSlides(1)">&#10095;</a>
 			</div>
-			<br>
+			<br><br>
 
 			<!-- END OF SLIDESHOW -->
 
-			<!-- START OF ABOUT ME-->
-			<br>
+			<!-- START OF ABOUT ME TITLE -->
+
+			<!-- END OF ABOUT ME TITLE -->
+
 			<div class = "JumpOffset" id = "AboutMe"></div>
-				<div class = "section--medium section" style="background-color: #062F4F;">
-					<div class = "SectionContent">
-						<span class = "title--bigger title">About Me</span>
-						<br>
-						<div class = "description">
-							<p> Hi! I'm Deniss Kirillovs, a game visual scripter and a designer who originated from Latvia. I am currently studying at Bournemouth University and I am very passionate and a commited indivudal who excels at visual scripting in Unreal Engine 4, map and environmental design.
-							</p>
-							<p>I have also created and worked on numerous game ready models using 3DS MAX and Maya - which are both tools that I am comfortable in using.	
-							</p>
-						</div>
-					</div>
+			<div class = "section--medium section" style="background-color: #1b1919;">
+				<div class = "SectionContent">
+					<span class = "title--medium title">About Me</span>
+					<br>
 				</div>
-			<!-- END OF ABOUT ME -->
+			</div>
+
+
+
+			<!--START OF ABOUT ME DESCRIPTION-->
+			
+			<div class = "SectionContent" style="background-color: #333;"></div>
+			<br>
+			<div class = "description">
+				<span class = "text"></span>
+					<p> Hello, my name is Deniss Kirillovs, a games programmer and designer. I graduated from Bournemouth University where I studied Games Design.</p><br>
+					<p> I've built this page for you to see some of my projects that I have developed over time. I strive for challenge and love discovering new technologies and techniques that help me create the world and vision we see in games today. My time at Bournemouth University has laid me a solid foundation for me to construct, refine and explore new and existing skills within the industry. </p><br>
+				</span>
+			</div>
+
+
+			<!-- END OF ABOUT ME DESCRIPTION-->
 
 			<!--START OF MY PROJECTS HEAD -->
 			<div class = "JumpOffset" id = "Projects"></div>
@@ -117,16 +125,13 @@
 			<div class = "main-project-container">
 				<div class = "gallery">
 					<div class = "gallery-image">
-						<a href = "/Project1.html"> <img src = "images/GameProjectImage.png" width ="320" height = "350"></a>
+						<a href = "/Project1.html"> <img src = "images/PlaceholderImage.png" width ="350" height = "350"></a>
 					</div>					
 					<div class = "gallery-description">
 						<span>
 							<ul>
-								<li>Project Type: University/Group Project</li>
-								<li>Number of devs: 5 </li>
-								<li>Role(s): Lead environment designer</li>
-								<li>Software Used: Unreal Engine 4</li>
-								<li>Languages Used: Blueprints</li>
+								<li>Project Type: University Final Year Project</li>
+								<li>Role: Sole Developer/Designer</li>
 							</ul>
 						</span>
 					</div>
@@ -134,16 +139,13 @@
 
 				<div class = "gallery">
 					<div class = "gallery-image">
-						<a href = "/Project2.html"> <img src = "images/PlaceholderImage.png" width ="320" height = "350"></a>
+						<a href = "/Project2.html"> <img src = "images/PlaceholderImage.png" width ="350" height = "350"></a>
 					</div>					
 					<div class = "gallery-description">
 						<span>
 							<ul>
-								<li>Project Type: University/Group Project</li>
-								<li>Number of devs: 5 </li>
-								<li>Role(s): Lead environment designer</li>
-								<li>Software Used: Unreal Engine 4</li>
-								<li>Languages Used: Blueprints</li>
+								<li>Project Type: University Project</li>
+								<li>Role: Sole Developer/Designer</li>
 							</ul>
 						</span>
 					</div>
@@ -151,33 +153,41 @@
 	
 				<div class = "gallery">
 					<div class = "gallery-image">
-						<a href = "/Project3.html"> <img src = "images/PlaceholderImage.png" width ="320" height = "350"></a>
+						<a href = "/Project3.html"> <img src = "images/PlaceholderImage.png" width ="350" height = "350"></a>
 					</div>					
 					<div class = "gallery-description">
 						<span>
 							<ul>
-								<li>Project Type: University/Group Project</li>
-								<li>Number of devs: 5 </li>
-								<li>Role(s): Lead environment designer</li>
-								<li>Software Used: Unreal Engine 4</li>
-								<li>Languages Used: Blueprints</li>
+								<li>Project Type: University Group Project</li>
+								<li>Role: Generalist Designer</li>
 							</ul>
 						</span>
 					</div>
 				</div>
-				
+
 				<div class = "gallery">
 					<div class = "gallery-image">
-						<a href = "/Project4.html"> <img src = "images/PlaceholderImage.png" width ="320" height = "350"></a>
+						<a href = "/Project4.html"> <img src = "images/PlaceholderImage.png" width ="350" height = "350"></a>
 					</div>					
 					<div class = "gallery-description">
 						<span>
 							<ul>
-								<li>Project Type: University/Group Project</li>
-								<li>Number of devs: 5 </li>
-								<li>Role(s): Lead environment designer</li>
-								<li>Software Used: Unreal Engine 4</li>
-								<li>Languages Used: Blueprints</li>
+								<li>Project Type: University Level Design Project</li>
+								<li>Role: Sole Developer/Designer</li>
+							</ul>
+						</span>
+					</div>
+				</div>
+
+				<div class = "gallery">
+					<div class = "gallery-image">
+						<a href = "/Project5.html"> <img src = "images/PlaceholderImage.png" width ="350" height = "350"></a>
+					</div>					
+					<div class = "gallery-description">
+						<span>
+							<ul>
+								<li>Project Type: Personal Project</li>
+								<li>Role: Programmer, Level/Game Designer</li>
 							</ul>
 						</span>
 					</div>
@@ -227,7 +237,7 @@
 			
 		<div class = "footer-padding">
 			<div class="footer" id = "Bottom">
-				Copyrighted © 2020 by Deniss Kirillovs
+				Copyrighted © 2023 by Deniss Kirillovs
 			</div>
 		</div>
 

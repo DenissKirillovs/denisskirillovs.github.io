@@ -10,6 +10,7 @@ html, body {
     width: 100%;
 	height: 100%;
 	box-sizing: border-box;
+	margin: 0;
   }
 
 /* Making the anchor scrolling smooth  */
@@ -25,7 +26,7 @@ html{
 .footer
 {
 	width: 100%;
-	background-color: grey;
+	background-color: #444;
 	color: rgb(200, 200, 200);
 	text-align: center;
 	padding-top: 12px;
@@ -71,9 +72,9 @@ body
 
 .section--medium {
 	width: 100%;
-	min-height: 220px;
 	padding-bottom: 15px;
 	padding-top: 15px;
+	margin-top: 1;
 }
 
 .Projects-section--medium
@@ -395,7 +396,7 @@ nav a:hover
 }
 
 /* Hide everything inside the navigation menu */
-#subMyName, #subAboutMe, #subProjects, #subPersonalWork, #subContact, #subResume 
+#subMyName, #subAboutMe, #subProjects, #subPersonalWork, #subContact, #subResume, #subCV
 {	
 	display: none;
 }
@@ -449,7 +450,7 @@ nav a:hover
 /* Changing colour of icon  */
 #icon {
 	display: none;
-	color: red;
+	color: rgb(255, 255, 255);
 }
 
 /* Hide/block the Hamburger Menu and Icon when above 1070px */
