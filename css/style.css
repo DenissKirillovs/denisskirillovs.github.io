@@ -117,6 +117,78 @@ body
 	padding-bottom: 20px;
 }
 
+.accordion{
+	margin:60px auto;
+	max-width: 1000px;
+	padding-right: 40px;
+}
+
+.accordion li{
+	list-style: none;
+	width:100%;
+	margin:20px;
+	padding:10px;
+	border-radius: 8px;
+	background: rgb(200, 200, 200);
+
+}
+
+.accordion li label{
+	display: flex;
+	align-items: center;
+	padding: 10px;
+	font-size: 18px;
+	font-weight: 500;
+	cursor: pointer;
+}
+
+label::before{
+	content: '+';
+	margin-right: 10px;
+	font-size: 24px;
+	font-weight: 600;
+}
+
+input[type="radio"]{
+	display:none;
+}
+
+.accordion .content{
+	color: #555;
+	padding:0 10px;
+	line-height: 26px;
+	max-height: 0;
+	overflow: hidden;
+	transition: max-height 0.5s, padding 0.5s;
+}
+
+.accordion input[type="radio"]:checked + label + .content{
+	max-height: 1500;
+	padding: 10px 10px 20px;
+}
+
+.accordion input[type="radio"]:checked + label::before{
+	content: '-';
+}
+
+@media only screen and (max-width: 620px) {
+	/* For mobile phones: */
+	.project-container .accordion {
+	  width: 100%;
+	}
+  }
+	
+	
+
+
+
+.video{
+	display: flex;
+	justify-content: center;
+}
+
+
+
 /* START OF CONTACT */
 
 #social-links 

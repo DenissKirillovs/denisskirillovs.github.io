@@ -53,30 +53,126 @@
 
 			<div class = "project-container">
 				<div class = "project-header">
-					<h1>Project Name #1</h1>
+					<h1>Exclusion Zone</h1>
 				</div>
 				<br>
 				<div class = "project-image">
-					<img src = "images/GameProjectImage.png" width ="480px" height = "500">
+					<img src = "images/PlaceholderImage.png" width ="500px" height = "500px">
 				</div>
 				
-				<div class = "project-description"> 
-					<span>
-						This was one of the first projects that I started to work on. It is a first-person-shooter (FPS), 
-						that focuses on quick and precise movement to evade enemy shots and score as many points as possible.
-						<br><br>
-						The game was being developed by myself and one other developer. We worked hand-in-hand on various systems such as:
-						<div class = "bullet-points">
-							<ul>
-								<li>AI Behaviours and Spawning</li>
-								<li>Map and Level Creation</li>
-								<li>Playtesting and Balancing</li>
-								<li>Character Movement</li>
-								<li>Player Combat Systems and Mechanics</li>
-							</ul>
+				<ul class = "accordion">
+					<li> 
+						<input type="radio" name="accordion" id = "first" checked>
+						<label for="first">Overview</label>
+						<div class="content">
+							<p>
+								Exclusion Zone is a project I developed as part of my final year project in Bournemouth University. 
+								This was mostly a solo development project, with weekly meetings 
+								with my university supervisors throughout the pre-production and production stages.
+								<br>
+								A dissertation paper was developed alongside this game, containing academic and 
+								professional research on various techniques in creating engaging and immersive environments in the horror genre.
+								<br><br>
+								Due to the time restriction of this project, I've decided to use an <a href="https://www.unrealengine.com/marketplace/en-US/product/abandoned-russian-building" target="_blank" rel="noreferrer noopener">asset pack</a> from the Unreal Engine Marketplace.
+							</p>
 						</div>
-					</span>
-				</div>
+					</li>
+
+					<li> 
+						<input type="radio" name="accordion" id = "second">
+						<label for="second">Description</label>
+						<div class="content">
+							<p>
+								The game is a first-person atmospheric horror game. 
+								It was designed from the ground-up to be an environment design project, however it later on turned to become a short playable level.
+								The game consists of various mechanics and systems that were implemented with the aim to aid the horror theme of the environment. 
+							</p><br>
+							<h2>Tools used:</h2><br>
+							<div>
+								<h3>Planning:</h3>
+								<ul>
+									<li>Figma - For brainstorming and idea creation.</li>
+									<li>Trello - project and task management.</li>
+								</ul><br>
+
+								<h3>Development Tools Used:</h3>
+									<ul>
+										<li>Unreal Engine 4.</li>
+										<li>Photoshop.</li>
+										<li>Audacity.</li>
+									</ul><br>
+							</div>
+
+
+							
+						</div>
+					</li>
+
+					<li> 
+						<input type="radio" name="accordion" id = "third">
+						<label for="third">Features</label>
+						<div class="content">
+							<h2>VHS Effect</h2>
+							<p>This VHS effect was made to mimic old film tapes you'd see in the 20th century films. 
+								The environment was set in the post-chernobyl explosion event, 
+								evident by various landmarks and hints about it in the environment. 
+							</p><br>
+							<div class="video">
+								<video width="640" height="360" loop autoplay muted>
+									<source src="videos/Exclusion Zone/ExclusionZoneClip1.mp4" type="video/mp4"> </video>
+							</div><br>
+
+							<p>
+								I achieved this by setting up a post-processing material and applying it to the player camera. 
+								The material had various variables that can be changed on the go, 
+								such as frequence of the static in the lower part of the screen. 
+								Things like changing the saturation, brightness etc was also possible, 
+								which made setting up the tone and mood of the environment much more easier.
+							</p><br>
+
+							<h2>Flashlight</h2>
+							<p>A flashlight, although simple, was the most crucial part to add for the player. 
+								It was the only source of light that the player has full control of, 
+								and by adding slight dimness and small light radius helped build that scary tone I wanted to create.
+								Additionally, camera lag was implemented to both the camera itself and the flashlight, which added this nice,
+								smooth camera.
+							</p><br>
+							<div class="video">
+								<video width="640" height="360" loop >
+									<source src="videos/Exclusion Zone/ExclusionZoneClip1.mp4" type="video/mp4"> </video>
+							</div><br>
+							<h2>Main Menu</h2>
+							<p>Although this is not really gameplay related, however, upon launching the game,
+								you can see different perspectives of the level when you are in the main menu. This 
+								element was created to give the slight introduction to the game and try to immerse the player. </p>
+						</div>
+					</li>
+
+					<li> 
+						<input type="radio" name="accordion" id = "forth">
+						<label for="forth">Images</label>
+						<div class="content">
+							<p>
+								Lorem ipsum dolor sit amet consectetur adipisicing elit. 
+								Error assumenda nam soluta! Tempore aliquam officia similique, 
+								adipisci repudiandae repellat voluptates quia distinctio eaque saepe, 
+								laudantium, eveniet voluptatem a voluptatibus unde.
+							</p>
+						</div>
+					</li>
+
+					<li> 
+						<input type="radio" name="accordion" id = "fifth">
+						<label for="fifth">Video</label>
+						<div class="content">
+							<div class = "video">
+								<iframe width="500" height="350" src="https://www.youtube.com/embed/tgbNymZ7vqY" 
+								frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+							</div>
+						</div>
+					</li>
+				</ul>
+
 			</div>
 
 
