@@ -479,9 +479,9 @@ nav a:hover
 }
 
 .JumpOffset {
-	display: block;
-	margin-top: -52px;
-	height: 40px;
+	display:block;
+	margin-top: -51px;
+	height: 58px;
 	visibility: transparent;
 }
 
