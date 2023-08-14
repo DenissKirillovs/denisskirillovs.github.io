@@ -468,7 +468,7 @@ nav a:hover
 }
 
 /* Hide everything inside the navigation menu */
-#subMyName, #subAboutMe, #subProjects, #subPersonalWork, #subContact, #subResume, #subCV
+#subMyName, #subAboutMe, #subProjects, #subPersonalWork, #subContact, #subCV
 {	
 	display: none;
 }
