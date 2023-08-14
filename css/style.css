@@ -37,11 +37,20 @@ html{
 /* Styling the body (entire page) */
 body 
 {
-	margin: 0%;
-	background: #333;
+	margin: 0;
+	background-color: #333;
 	font-family: 'Work Sans', sans-serif;
 	font-weight: 400;
 	animation: fadeIn 2s;
+}
+
+.background-image{
+    width: 100%;
+    height: 100%;
+	position: fixed;
+	z-index: -1;
+	background-image: url("/images/ExclusionZonePic3.png");
+    background-size: cover;
 }
 
 /* Fade In animation using simple opacity keyframes from and to */
@@ -118,9 +127,10 @@ body
 }
 
 .accordion{
-	margin:60px auto;
+	margin: 25px auto;
 	max-width: 1000px;
 	padding-right: 40px;
+	padding-bottom: 20%;
 }
 
 .accordion li{
@@ -188,7 +198,19 @@ input[type="radio"]{
 	display: flex;
 }
 
+.PersonalProject-Info-Container{
+	margin-bottom: 15px;
+}
 
+.PersonalProject-Table{
+	margin:auto;
+}
+
+.PersonProject-Table-Text{
+	padding: 5px;
+	text-decoration: none;
+	color: white;
+}
 
 
 /* START OF CONTACT */
@@ -205,9 +227,7 @@ input[type="radio"]{
 
 a, a:visited a:active
 {
-	color: white;
-	text-decoration: none;
-	/* border-bottom: 1px white dotted; */
+	color: rgb(97, 93, 93);
 }
 
 .social-icons
@@ -284,7 +304,10 @@ a, a:visited a:active
 .project-container
 {
 	padding-top: 75px;
+	/* background-color: rgba(0,0,0,0.50); */
 }
+
+
 
 .project-header
 {
@@ -659,5 +682,8 @@ nav a:hover
   from {opacity: .4}
   to {opacity: 1}
 }
+
+
+
 
 /* END OF SLIDESHOW */

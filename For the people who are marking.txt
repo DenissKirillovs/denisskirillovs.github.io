@@ -1,5 +1,0 @@
-Hi, i hope you are reading this.
-
-I made it easier for you guys to mark the assignment and hosted a github.io server, below is my website:
-
-									https://denisskirillovs.github.io/
