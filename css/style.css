@@ -1,25 +1,32 @@
 /* Resetting the entire websites margin and padding to 0 */
 * {
-	margin: 0;
 	padding: 0;
 }
 
 
 /* Setting the websites marging and padding to 0 from the start */
 html, body {
-    width: 100%;
-	height: 100%;
-	box-sizing: border-box;
 	margin: 0;
   }
 
 /* Making the anchor scrolling smooth  */
 html{
 	scroll-behavior: smooth;
+	box-sizing: border-box;
+	height: 100%;
 }
-.page-container{
+
+/* Styling the body (entire page) */
+body 
+{
+	margin: 0;
+	background-color: #333;
+	font-family: 'Work Sans', sans-serif;
+	font-weight: 400;
+	animation: fadeIn 2s;
+	box-sizing: inherit;
 	min-height: 100%;
-	overflow: auto;
+	position: relative;
 }
 
 /* Styling the footer (My right reserved section) */
@@ -31,17 +38,11 @@ html{
 	text-align: center;
 	padding-top: 12px;
 	padding-bottom: 12px;
+	position: absolute;
 }
 
-
-/* Styling the body (entire page) */
-body 
-{
-	margin: 0;
-	background-color: #333;
-	font-family: 'Work Sans', sans-serif;
-	font-weight: 400;
-	animation: fadeIn 2s;
+.page-container{
+	overflow: auto;
 }
 
 .background-image{
@@ -130,7 +131,6 @@ body
 	margin: 25px auto;
 	max-width: 1000px;
 	padding-right: 40px;
-	padding-bottom: 20%;
 }
 
 .accordion li{
@@ -209,7 +209,17 @@ input[type="radio"]{
 .PersonProject-Table-Text{
 	padding: 5px;
 	text-decoration: none;
-	color: white;
+	color: #555;
+}
+
+.PersonalProject-Box{
+	background-color: rgb(200,200,200);
+	border-radius: 10px;
+	max-width: 960px;
+	margin-left: auto;
+	margin-right: auto;
+	padding-top: 10px;
+	padding-bottom: 10px;
 }
 
 
@@ -313,7 +323,8 @@ a, a:visited a:active
 {
 	text-align: center;
 	text-decoration: none;
-	color: white;
+	color: #555;
+	font-size: larger;
 }
 
 .project-image
