@@ -159,11 +159,11 @@ input[type="radio"]{
 	line-height: 26px;
 	max-height: 0;
 	overflow: hidden;
-	transition: max-height 0.5s, padding 0.5s;
+	transition: max-height 0.75s, padding 0.75s;
 }
 
 .accordion input[type="radio"]:checked + label + .content{
-	max-height: 1900;
+	max-height: 2000;
 	padding: 10px 10px 20px;
 }
 
@@ -177,15 +177,17 @@ input[type="radio"]{
 	  width: 100%;
 	}
   }
-	
-	
-
-
 
 .video{
 	display: flex;
 	justify-content: center;
 }
+
+.ProjectImages{
+	justify-content: center;
+	display: flex;
+}
+
 
 
 
@@ -468,7 +470,7 @@ nav a:hover
 }
 
 /* Hide everything inside the navigation menu */
-#subMyName, #subAboutMe, #subProjects, #subPersonalWork, #subContact, #subCV
+#subMyName, #subAboutMe, #subProjects, #subPersonalWork, #subContact, #subResume, #subCV
 {	
 	display: none;
 }
