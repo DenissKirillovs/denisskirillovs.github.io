@@ -143,8 +143,7 @@ body
 	margin:20px;
 	padding:10px;
 	border-radius: 8px;
-	background: rgb(200, 200, 200);
-
+	background: rgba(100, 100, 100, 0.6);
 }
 
 .accordion li label{
@@ -154,6 +153,7 @@ body
 	font-size: 18px;
 	font-weight: 500;
 	cursor: pointer;
+	color: white;
 }
 
 label::before{
@@ -168,7 +168,7 @@ input[type="radio"]{
 }
 
 .accordion .content{
-	color: #555;
+	color: white;
 	padding:0 10px;
 	line-height: 26px;
 	max-height: 0;
@@ -198,9 +198,16 @@ input[type="radio"]{
 }
 
 .ProjectImages{
-	justify-content: center;
-	display: flex;
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
+	text-align: center;
 }
+
+.img {
+	display: inline-block;
+}
+
 
 .PersonalProject-Info-Container{
 	margin-bottom: 15px;
@@ -213,11 +220,15 @@ input[type="radio"]{
 .PersonProject-Table-Text{
 	padding: 5px;
 	text-decoration: none;
-	color: #555;
+	color: white;
+}
+
+.PersonalProject-TitleText{
+	color: white;
 }
 
 .PersonalProject-Box{
-	background-color: rgb(200,200,200);
+	background-color: rgba(100, 100, 100, 0.6);
 	border-radius: 10px;
 	max-width: 960px;
 	margin-left: auto;
@@ -241,7 +252,7 @@ input[type="radio"]{
 
 a, a:visited a:active
 {
-	color: rgb(97, 93, 93);
+	color: white;
 }
 
 .social-icons

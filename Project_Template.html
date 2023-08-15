@@ -1,0 +1,160 @@
+<html id = "Top">
+
+	<head>
+		<title>Deniss Kirillovs - Game Programming and Design Portfolio</title>
+		<link rel ="stylesheet" href ="css/style.css">	
+		<link href="https://fonts.googleapis.com/css?family=Work+Sans:400" rel="stylesheet">
+		<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+		<script type="module" src="https://unpkg.com/@google/model-viewer/dist/model-viewer.min.js"></script>
+		<script nomodule src="https://unpkg.com/@google/model-viewer/dist/model-viewer-legacy.js"></script>
+
+	</head>
+
+
+	<body>
+		<div class = "page-container">
+			<div class="background-image" id="PROJECT-NAME"></div>
+			<header>
+				<div class = "container">
+					<nav>
+						<div class ="NavLink">
+							<ul>
+								<div class ="Fullscreen">
+									<li><a href="/index.html">Deniss Kirillovs</a></li>
+									<li><a href="/index.html">About Me</a></li>
+									<li><a href="/index.html">Projects</a></li>
+									<li><a href="/index.html">Contact</a></li>									
+									<li><a href="/personal-work.html">Personal Work</a></li>
+									<li><a href="downloads/DenissKirillovs_CV.pdf">&nbsp&nbsp CV &nbsp&nbsp</a></li>
+								</div>
+							</ul>
+						</div>
+						
+						
+						<div class = "MyLinks">			
+							<a id = "subMyName" href="/index.html" onclick = "closehamburger()">Deniss Kirillovs</a>
+							<a id = "subAboutMe" href="/index.html" onclick = "closehamburger()">About Me</a>
+							<a id = "subProjects" href="/index.html" onclick = "closehamburger()">Projects</a>
+							<a id = "subContact" href="/index.html" onclick = "closehamburger()">Contact</a>							
+							<a id = "subPersonalWork" href="/personal-work.html" onclick = "closehamburger()">Personal Work</a>
+							<a id = "subCV" href="downloads/DenissKirillovs_CV.pdf" target="_blank" rel="noopener noreferrer" onclick = "closehamburger()">CV</a>			
+						</div>
+						<a href="javascript:void(0);" id ="icon" onclick="hamburgerMenu()">
+							<i class="fa fa-bars"></i>
+						</a>
+					</nav>
+				
+				</div>
+			</header>
+
+			<div class = "project-container">
+				<div class="PersonalProject-Box">
+					<div class = "project-header">
+						<h1 class="PersonalProject-TitleText">PROJECT NAME</h1>
+					</div>
+					<br>
+					<div class = "PersonalProject-Info-Container">
+						<table class = "PersonalProject-Table">
+							<tbody>
+								<tr>
+									<td class = "PersonProject-Table-Text">
+										<strong>Project Type:</strong>
+									</td>
+									<td class = "PersonProject-Table-Text">TEXT HERE</td>
+								</tr>
+	
+								<tr>
+									<td class = "PersonProject-Table-Text">
+										<strong>Primary Role:</strong>
+									</td>
+									<td class = "PersonProject-Table-Text">TEXT HERE</td>
+								</tr>
+	
+								<tr>
+									<td class = "PersonProject-Table-Text">
+										<strong>Engine used:</strong>
+									</td>
+									<td class = "PersonProject-Table-Text">TEXT HERE</td>
+								</tr>
+	
+								<tr>
+									<td class = "PersonProject-Table-Text">
+										<strong>Language Used:</strong>
+									</td>
+									<td class = "PersonProject-Table-Text">TEXT HERE</td>
+								</tr>
+							</tbody>
+						</table>
+					</div>
+				</div>
+
+				
+				<ul class = "accordion">
+					<li> 
+						<input type="radio" name="accordion" id = "first" checked>
+						<label for="first">Overview</label>
+						<div class="content">
+							<p>
+                                TEXT GOES HERE
+							</p>
+						</div>
+					</li>
+
+					<li> 
+						<input type="radio" name="accordion" id = "second">
+						<label for="second">Description</label>
+						<div class="content">
+							<p>
+                                TEXT GOES HERE
+							</p>	
+						</div>
+					</li>
+
+					<li> 
+						<input type="radio" name="accordion" id = "third">
+						<label for="third">Features</label>
+						<div class="content">
+							<h2>TITLE OF CONTENT</h2>
+							<p>
+                                TEXT GOES HERE
+							</p>
+						</div>
+					</li>
+
+					<li> 
+						<input type="radio" name="accordion" id = "forth">
+						<label for="forth">Images</label>
+						<div class="content">
+							<div class = "ProjectImages">
+								<img src = "images\ExclusionZonePic1.png" width ="800px" height = "450px"><br><br>
+								<img src = "images\ExclusionZonePic2.png" width ="800px" height = "450px"><br><br>
+								<img src = "images\ExclusionZonePic3.png" width ="800px" height = "450px"><br><br>
+								<img src = "images\ExclusionZonePic4.png" width ="800px" height = "450px"><br><br>
+							</div>
+						</div>
+					</li>
+
+					<li> 
+						<input type="radio" name="accordion" id = "fifth">
+						<label for="fifth">Videos</label>
+						<div class="content">
+							<div class = "video">
+								<iframe width="500" height="350" src="https://www.youtube.com/embed/tgbNymZ7vqY" 
+								frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+							</div>
+						</div>
+					</li>
+				</ul>
+			</div>
+
+			<script src="Nav.js"></script>
+
+		</div>
+
+		<footer class = "footer" id = "Bottom">
+			Copyrighted © 2023 by Deniss Kirillovs
+		</footer>
+	</body>
+	
+	
+</html>
