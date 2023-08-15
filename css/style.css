@@ -7,13 +7,15 @@
 /* Setting the websites marging and padding to 0 from the start */
 html, body {
 	margin: 0;
+	width: 100%;
+	height: 100%;
+	overflow-x: hidden
   }
 
 /* Making the anchor scrolling smooth  */
 html{
 	scroll-behavior: smooth;
 	box-sizing: border-box;
-	height: 100%;
 }
 
 /* Styling the body (entire page) */
@@ -25,8 +27,10 @@ body
 	font-weight: 400;
 	animation: fadeIn 2s;
 	box-sizing: inherit;
-	min-height: 100%;
 	position: relative;
+	min-height: 100vh;
+	display: flex;
+	flex-flow: column;
 }
 
 /* Styling the footer (My right reserved section) */
@@ -38,14 +42,10 @@ body
 	text-align: center;
 	padding-top: 12px;
 	padding-bottom: 12px;
-	position: absolute;
+	margin-top: auto;
 }
 
-.page-container{
-	overflow: auto;
-}
-
-.background-image{
+.background-image-P1{
     width: 100%;
     height: 100%;
 	position: fixed;
