@@ -128,7 +128,6 @@ body
 	padding-left: 20%;
 	padding-right: 20%;
 	color: white;
-	padding-bottom: 20px;
 }
 
 .accordion{
@@ -320,6 +319,20 @@ a, a:visited a:active
 .gallery
 {
 	padding: 50px;
+}
+
+.gallery-image-title-container {
+	position:relative;
+	bottom: 44px;
+	background-color: rgba(0,0,0,0.8);
+}
+
+.gallery-image-title{
+	text-align: center;
+	font-size: 150%;
+	padding-top: 8px;
+	padding-bottom: 8px;
+	color: white;
 }
 
 /* END OF PROJECTS CONTENT */
@@ -678,9 +691,9 @@ nav a:hover
 /* The dots/bullets/indicators */
 .dot {
   cursor: pointer;
-  height: 15px;
-  width: 15px;
-  margin: 0 10px;
+  height: 20px;
+  width: 20px;
+  margin: 0 2px;
   background-color: #bbb;
   border-radius: 50%;
   display: inline-block;

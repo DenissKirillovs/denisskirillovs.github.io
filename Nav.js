@@ -92,34 +92,33 @@ function hamburgerMenu() //Play this function when user presses the hamburger me
 
 // START OF SLIDESHOW JS
 
-var slideIndex = 1;
+let slideIndex = 1;
 showSlides(slideIndex);
 
-// Next and previous buttons
-function plusSlides(n) {
-  showSlides(slideIndex += n);
+function plusSlides(n){
+    showSlides(slideIndex += n);
 }
 
-// Slideshow image buttons
-function currentSlide(n) {
-  showSlides(slideIndex = n);
+function currentSlide(n){
+    showSlides(slideIndex = n);
 }
 
 function showSlides(n) {
-  var i;
-  var slides = document.getElementsByClassName("Slideshow");
-  var dots = document.getElementsByClassName("dot");
-  if (n > slides.length) {slideIndex = 1}
-  if (n < 1) {slideIndex = slides.length}
-  for (i = 0; i < slides.length; i++) {
+    let i;
+    let slides = document.getElementsByClassName("Slideshow");
+    let dots = document.getElementsByClassName("dot");
+    if (n > slides.length) {slideIndex = 1}
+    if (n < 1) {slideIndex = slides.length}
+    for (i = 0; i < slides.length; i++) {
       slides[i].style.display = "none";
-  }
-  for (i = 0; i < dots.length; i++) {
+    }
+    for (i = 0; i < dots.length; i++) {
       dots[i].className = dots[i].className.replace(" active", "");
-  }
-  slides[slideIndex-1].style.display = "block";
-  dots[slideIndex-1].className += " active";
-}
+    }
+    slides[slideIndex-1].style.display = "block";
+    dots[slideIndex-1].className += " active";
+} 
+
 
 // END OF SLIDESHOW JS
 
