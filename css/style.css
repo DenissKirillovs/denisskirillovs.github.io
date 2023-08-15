@@ -45,14 +45,18 @@ body
 	margin-top: auto;
 }
 
-.background-image-P1{
+.background-image{
     width: 100%;
     height: 100%;
 	position: fixed;
 	z-index: -1;
-	background-image: url("/images/ExclusionZonePic3.png");
     background-size: cover;
 }
+
+#ExclusionZone {
+	background-image: url("/images/ExclusionZonePic3.png");
+}
+
 
 /* Fade In animation using simple opacity keyframes from and to */
 @keyframes fadeIn {
