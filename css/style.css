@@ -87,7 +87,7 @@ body
 	width: 100%;
 	padding-bottom: 15px;
 	padding-top: 15px;
-	margin-top: 1;
+	margin-top: 7px;
 }
 
 .Projects-section--medium
@@ -689,7 +689,7 @@ nav a:hover
   padding: 8px 12px;
   position: absolute;
   top: 0;
-  padding-top: 40px;
+  padding-top: 65px;
 }
 
 /* The dots/bullets/indicators */
