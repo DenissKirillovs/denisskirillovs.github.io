@@ -1,0 +1,244 @@
+<html id = "Top">
+
+	<head>
+		<title>Deniss Kirillovs - Game Programming and Design Portfolio</title>
+		<link rel ="stylesheet" href ="css/style.css">	
+		<link href="https://fonts.googleapis.com/css?family=Work+Sans:400" rel="stylesheet">
+		<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+		<script type="module" src="https://unpkg.com/@google/model-viewer/dist/model-viewer.min.js"></script>
+		<script nomodule src="https://unpkg.com/@google/model-viewer/dist/model-viewer-legacy.js"></script>
+
+	</head>
+
+
+	<body>
+		<div class = "page-container">
+			<div class="background-image" id="OrderUp"></div>
+			<header>
+				<div class = "container">
+					<nav>
+					
+						<div class ="NavLink">
+							<ul>
+								<div class ="Fullscreen">
+									<li><a href="/index.html">Deniss Kirillovs</a></li>
+									<li><a href="/index.html">About Me</a></li>
+									<li><a href="/index.html">Projects</a></li>
+									<li><a href="/index.html">Contact</a></li>									
+									<li><a href="/personal-work.html">Personal Work</a></li>
+									<li><a href="downloads/DenissKirillovs_CV.pdf">&nbsp&nbsp CV &nbsp&nbsp</a></li>
+								</div>
+							</ul>
+						</div>
+						
+						
+						<div class = "MyLinks">			
+							<a id = "subMyName" href="/index.html" onclick = "closehamburger()">Deniss Kirillovs</a>
+							<a id = "subAboutMe" href="/index.html" onclick = "closehamburger()">About Me</a>
+							<a id = "subProjects" href="/index.html" onclick = "closehamburger()">Projects</a>
+							<a id = "subContact" href="/index.html" onclick = "closehamburger()">Contact</a>							
+							<a id = "subPersonalWork" href="/personal-work.html" onclick = "closehamburger()">Personal Work</a>
+							<a id = "subCV" href="downloads/DenissKirillovs_CV.pdf" target="_blank" rel="noopener noreferrer" onclick = "closehamburger()">CV</a>			
+						</div>
+						<a href="javascript:void(0);" id ="icon" onclick="hamburgerMenu()">
+							<i class="fa fa-bars"></i>
+						</a>
+					</nav>
+				
+				</div>
+			</header>
+
+			<div class = "project-container">
+				<div class="PersonalProject-Box">
+					<div class = "project-header">
+						<h1 class="PersonalProject-TitleText">OrderUp!</h1>
+					</div>
+					<br>
+					<div class = "PersonalProject-Info-Container">
+						<table class = "PersonalProject-Table">
+							<tbody>
+								<tr>
+									<td class = "PersonProject-Table-Text">
+										<strong>Project Type:</strong>
+									</td>
+									<td class = "PersonProject-Table-Text">University Project</td>
+								</tr>
+	
+								<tr>
+									<td class = "PersonProject-Table-Text">
+										<strong>Primary Role:</strong>
+									</td>
+									<td class = "PersonProject-Table-Text">Sole Game Designer/Developer</td>
+								</tr>
+	
+								<tr>
+									<td class = "PersonProject-Table-Text">
+										<strong>Engine used:</strong>
+									</td>
+									<td class = "PersonProject-Table-Text">Unity</td>
+								</tr>
+	
+								<tr>
+									<td class = "PersonProject-Table-Text">
+										<strong>Language Used:</strong>
+									</td>
+									<td class = "PersonProject-Table-Text">C#</td>
+								</tr>
+							</tbody>
+						</table>
+					</div>
+				</div>
+
+				
+				<ul class = "accordion">
+					<li> 
+						<input type="radio" name="accordion" id = "first" checked>
+						<label for="first">Overview</label>
+						<div class="content">
+							<p>
+								This is a game I developed for my University project that covered multimodal interface
+								game systems and how they can be utilised within the gaming industry.
+								<br>
+								For the purpose of this project, I made use of speech recognition capabilities in Unity Engine,
+								on top of your basic keyboard and mice to create a Kitchen Simulator game.
+								<br><br>
+								The game puts you in the role of a chef, in which you can use a variety of machines and 
+								ingredients to prepare burger recipes.
+							</p>
+						</div>
+					</li>
+
+					<li> 
+						<input type="radio" name="accordion" id = "second">
+						<label for="second">Description</label>
+						<div class="content">
+							<p>
+								The game can be fully played with your typical keyboard and mouse system, 
+								however a voice recognition system was used alongside to further expand the user 
+								experience and enable the use of voice as an additional interaction medium.
+							</p>
+							<p>
+								The game was designed with multimodal systems in mind, therefore a well developed level design,
+								thought out colours and models were implemented later in a bare-bones state. 
+							</p>
+						</div>
+					</li>
+
+					<li> 
+						<input type="radio" name="accordion" id = "third">
+						<label for="third">Features</label>
+						<div class="content">
+							<h2>Voice Recognition System</h2>
+							<p>
+								This was a system that would detect user speech recognition when they held down the spacebar key.
+								I used the built in <a href="https://docs.unity3d.com/ScriptReference/Windows.Speech.KeywordRecognizer.html">Unity Engine KeywordRecognizer</a>
+								to allow the game to recognise certain words and execute code accordingly.
+							</p>
+							<div class = "ProjectImages">
+								<img src = "images\KeywordRecIMG1.png" style="max-width: 90%;"><br><br>
+								<img src = "images\CommandChecker.png" style="max-width: 90%;"><br><br>
+							</div>
+
+							<div class="video">
+								<video width="640" height="360" show controls>
+									<source src="ExclusionZoneClip1.mp4" type="video/mp4"> </video>
+							</div><br>
+
+							The entire game could be controlled using the speech recognition system (aside from the movement), which allowed
+							for a diverse and interactive way of playing the game.
+
+							<h2>Machinery</h2>
+							<h3>Ingredient Dispenser</h3>
+							<p>This is a machine that spawns ingredients when interacted with. The buttons can be manually
+								pressed with the mouse, or be spawned using a voice command such as "spawn/make [item name]"
+							</p>
+
+							<h3>Cooker</h3>
+							<p>Cooker is a simple machine that would cook a specific item after a short period. Item staying on the 
+								grill for too long becomes burnt which is unusuable for the combiner machine. 
+							</p>
+
+							<h3>Combiner</h3>
+							<p>
+								This machine takes all the ingredients on its conveyor and combines them automatically to create the 
+								burger of your choice. Due to this project being about multimodal systems, the only way that you could realistically
+								combine ingredients to create a dish was through using machines.
+							</p>
+							<div class="video">
+								<video width="640" height="360" show controls>
+									<source src="ExclusionZoneClip1.mp4" type="video/mp4"> </video>
+							</div>
+							<p>
+								The ingredients stored in the machine are displayed on the screen on the machine and the buttons that are 
+								used to create the burger recipe can be both pressed manually using a point and click or through voice commands 
+								such as "Make Basic Burger".
+							</p>
+
+							<h3>Receiver</h3>
+							<p>
+								This machine creates a random burger recipe order and displays it on screen. The machine would only take the burger
+								that corresponds to the burger on screen. If the order is wrong, an error message would display. If the order is correct, the
+								conveyor would take the order away.
+							</p>
+							<div class="video">
+								<video width="640" height="360" show controls>
+									<source src="ExclusionZoneClip1.mp4" type="video/mp4"> </video>
+							</div>
+							<p>
+								Once again this machine can be interacted with a mouse click as well as using the speech recognition system.
+								Saying the following lines "Order Up", would activate the machine.
+							</p>
+						</div>
+					</li>
+
+
+					<li> 
+						<input type="radio" name="accordion" id = "forth">
+						<label for="forth">Future Work</label>
+						<div class="content">
+							<p>
+								A lot of things could be improved in this project, ranging from the general look and style, code efficiency in both 
+								the voice recognition system and the general code for the game systems. And more importantly how the machines operate 
+								and how the player interacts with them. 
+								<br>I plan to revisit this project and do a little reboot of the games systems and design.
+							</p>
+						</div>
+					</li>
+
+					<li> 
+						<input type="radio" name="accordion" id = "fifth">
+						<label for="fifth">Images</label>
+						<div class="content">
+							<div class = "ProjectImages">
+								<img src = "images\ExclusionZonePic1.png" width ="800px" height = "450px"><br><br>
+								<img src = "images\ExclusionZonePic2.png" width ="800px" height = "450px"><br><br>
+								<img src = "images\ExclusionZonePic3.png" width ="800px" height = "450px"><br><br>
+								<img src = "images\ExclusionZonePic4.png" width ="800px" height = "450px"><br><br>
+							</div>
+						</div>
+					</li>
+
+					<li> 
+						<input type="radio" name="accordion" id = "sixth">
+						<label for="sixth">Videos</label>
+						<div class="content">
+							<div class = "video">
+								<iframe width="500" height="350" src="https://www.youtube.com/embed/tgbNymZ7vqY" 
+								frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+							</div>
+						</div>
+					</li>
+				</ul>
+			</div>
+
+			<script src="Nav.js"></script>
+
+		</div>
+
+		<footer class = "footer" id = "Bottom">
+			Copyrighted © 2023 by Deniss Kirillovs
+		</footer>
+	</body>
+	
+	
+</html>

@@ -56,6 +56,10 @@ body
 	background-image: url("/images/ExclusionZonePic3.png");
 }
 
+#OrderUp {
+	background-image: url("/images/OrderUpBanner.png");
+}
+
 
 /* Fade In animation using simple opacity keyframes from and to */
 @keyframes fadeIn {
@@ -141,7 +145,7 @@ body
 	margin:20px;
 	padding:10px;
 	border-radius: 8px;
-	background: rgba(100, 100, 100, 0.6);
+	background: rgba(100, 100, 100, 0.75);
 }
 
 .accordion li label{
@@ -175,7 +179,7 @@ input[type="radio"]{
 }
 
 .accordion input[type="radio"]:checked + label + .content{
-	max-height: 2000;
+	max-height: 2650px;
 	padding: 10px 10px 20px;
 }
 
@@ -226,7 +230,7 @@ input[type="radio"]{
 }
 
 .PersonalProject-Box{
-	background-color: rgba(100, 100, 100, 0.6);
+	background-color: rgba(100, 100, 100, 0.75);
 	border-radius: 10px;
 	max-width: 960px;
 	margin-left: auto;
@@ -251,6 +255,10 @@ input[type="radio"]{
 a, a:visited a:active
 {
 	color: white;
+}
+
+a:hover {
+	color: rgb(255, 160, 160);
 }
 
 .social-icons
@@ -626,6 +634,7 @@ nav a:hover
 	width: 100%;
 	max-height: 90vh;
 	object-fit: cover;
+	min-width: 1920px;
 }
 
 
