@@ -12,13 +12,11 @@
 
 
 	<body>
+		<div class ="loader"></div>
 		<div class = "page-container">
 			<header>
-			
 				<div class = "container">
-				
 					<nav>
-					
 						<div class ="NavLink">
 							<ul>
 								<div class ="Fullscreen">
@@ -230,6 +228,17 @@
 		</div>
 		<!-- END OF FOOTER -->
 
+		<script >
+			window.addEventListener("load", () => {
+				const loader = document.querySelector(".loader")
+
+				loader.classList.add("loader--hidden");
+
+				loader.addEventListener("transitionend", () => {
+					document.body.removeChild(loader);
+				});
+			});
+		</script>
 
 
 	</body>
