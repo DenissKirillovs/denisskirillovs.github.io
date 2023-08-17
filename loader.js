@@ -1,0 +1,1 @@
+$("document").ready($(".loader-wrapper").fadeOut("slow"));

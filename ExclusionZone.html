@@ -8,11 +8,14 @@
 		<script type="module" src="https://unpkg.com/@google/model-viewer/dist/model-viewer.min.js"></script>
 		<script nomodule src="https://unpkg.com/@google/model-viewer/dist/model-viewer-legacy.js"></script>
 		<meta name="viewport" content="width=device-width, initial-scale=1.0">
-
+		<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
 	</head>
 
 
 	<body>
+		<div class="loader-wrapper">
+			<span class="loader"><span class="loader-inner"></span></span>
+		</div>
 		<div class = "page-container">
 			<div class="background-image" id="ExclusionZone"></div>
 			<header>
@@ -212,6 +215,8 @@
 		<footer class = "footer" id = "Bottom">
 			Copyrighted © 2023 by Deniss Kirillovs
 		</footer>
+
+		<script src = "loader.js"></script>
 	</body>
 	
 	

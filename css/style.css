@@ -24,7 +24,7 @@ body
 	background-color: #333;
 	font-family: 'Work Sans', sans-serif;
 	font-weight: 400;
-	animation: fadeIn 2s;
+	/* animation: fadeIn 2s; */
 	box-sizing: inherit;
 	position: relative;
 	min-height: 100vh;
@@ -44,7 +44,81 @@ body
 	margin-top: auto;
 }
 
-.loader{
+.loader-wrapper{
+	position: fixed;
+	top: 0;
+	left: 0;
+	width: 100vw;
+	height: 100vh;
+	display: flex;
+	background-color: #333;
+	align-items: center;
+	justify-content: center;
+	z-index: 1000;
+}
+
+.loader {
+	display: inline-block;
+	width: 30px;
+	height: 30px;
+	border: 4px solid #Fff;
+	top: 50%;
+	animation: loader 2s infinite ease;
+}
+  
+.loader-inner {
+	vertical-align: top;
+	display: inline-block;
+	width: 100%;
+	background-color: #fff;
+	animation: loader-inner 2s infinite ease-in;
+}
+  
+@keyframes loader {
+	0% {
+	  transform: rotate(0deg);
+	}
+	
+	25% {
+	  transform: rotate(180deg);
+	}
+	
+	50% {
+	  transform: rotate(180deg);
+	}
+	
+	75% {
+	  transform: rotate(360deg);
+	}
+	
+	100% {
+	  transform: rotate(360deg);
+	}
+}
+  
+@keyframes loader-inner {
+	0% {
+	  height: 0%;
+	}
+	
+	25% {
+	  height: 0%;
+	}
+	
+	50% {
+	  height: 100%;
+	}
+	
+	75% {
+	  height: 100%;
+	}
+	
+	100% {
+	  height: 0%;
+	}
+}
+
+/* .loader{
 	position: fixed;
 	top: 0;
 	left: 0;
@@ -74,9 +148,13 @@ body
 }
 
 @keyframes loading {
-	from { transform : rotate(0turn)}
-	to { transform : rotate(1turn)}
-}
+	from { 
+		transform : rotate(0turn)
+	}
+	to { 
+		transform : rotate(1turn)
+	}
+} */
 
 
 
@@ -99,7 +177,7 @@ body
 }
 
 
-/* Fade In animation using simple opacity keyframes from and to */
+/* Fade In animation using simple opacity keyframes from and to
 @keyframes fadeIn {
 
 	from {
@@ -110,7 +188,7 @@ body
 		opacity: 1;
 	}
 
-}
+} */
 
 .full-width {
 	width: 100%;
@@ -755,7 +833,7 @@ nav a:hover
   background-color: #717171;
 }
 
-/* Fading animation */
+/* Fading animation
 .fade {
   -webkit-animation-name: fade;
   -webkit-animation-duration: 1.5s;
@@ -771,7 +849,7 @@ nav a:hover
 @keyframes fade {
   from {opacity: .4}
   to {opacity: 1}
-}
+} */
 
 
 
