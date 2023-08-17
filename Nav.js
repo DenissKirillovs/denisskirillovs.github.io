@@ -121,18 +121,3 @@ function showSlides(n) {
 
 
 // END OF SLIDESHOW JS
-
-
-// START OF LOADER JS
-
-window.addEventListener("load", () => {
-    const loader = document.querySelector(".loader")
-
-    loader.classList.add("loader--hidden");
-
-    loader.addEventListener("transitionend", () => {
-        document.body.removeChild(loader);
-    });
-});
-
-// END OF LOADER JS

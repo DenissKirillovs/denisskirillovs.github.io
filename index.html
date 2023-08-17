@@ -1,4 +1,4 @@
-<html id = "Top">
+<html>
 
 	<head>
 		<title>Deniss Kirillovs - Games Programming and Design Portfolio</title>
@@ -8,7 +8,7 @@
 		<script type="module" src="https://unpkg.com/@google/model-viewer/dist/model-viewer.min.js"></script>
 		<script nomodule src="https://unpkg.com/@google/model-viewer/dist/model-viewer-legacy.js"></script>
 		<meta name="viewport" content="width=device-width, initial-scale=1.0">
-		<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+		<script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
 	</head>
 
 
@@ -27,7 +27,7 @@
 									<li><a href="#AboutMe">About Me</a></li>
 									<li><a href="#Projects">Projects</a></li>
 									<li><a href="#Bottom">Contact</a></li>									
-									<li><a href="/personal-work.html">Personal Work</a></li>
+									<li><a href="/personal-work.html" class = "redirect-link">Personal Work</a></li>
 									<li><a href="downloads/DenissKirillovs_CV.pdf">&nbsp&nbsp CV &nbsp&nbsp</a></li>
 								</div>
 							</ul> 
@@ -35,11 +35,11 @@
 						
 						
 						<div class = "MyLinks">	
-							<a id = "subMyName" href="#Top" onclick = "closehamburger()">Deniss Kirillovs</a>
-							<a id = "subAboutMe" href="#AboutMe" onclick = "closehamburger()">About Me</a>
-							<a id = "subProjects" href="#Projects" onclick = "closehamburger()">Projects</a>
-							<a id = "subContact" href="#Bottom" onclick = "closehamburger()">Contact</a>
-							<a id = "subPersonalWork" href="/personal-work.html" onclick = "closehamburger()">Personal Work</a>
+							<a id = "subMyName" href="/index.html" onclick = "closehamburger()" class = "redirect-link">Deniss Kirillovs</a>
+							<a id = "subAboutMe" href="/index.html" onclick = "closehamburger()" class = "redirect-link">About Me</a>
+							<a id = "subProjects" href="/index.html" onclick = "closehamburger()" class = "redirect-link">Projects</a>
+							<a id = "subContact" href="/index.html" onclick = "closehamburger()" class = "redirect-link">Contact</a>
+							<a id = "subPersonalWork" href="/personal-work.html" onclick = "closehamburger()" class = "redirect-link">Personal Work</a>
 							<a id = "subCV" href="downloads/DenissKirillovs_CV.pdf" target="_blank" rel="noopener noreferrer" onclick = "closehamburger()">CV</a>				
 						</div>
 						<a href="javascript:void(0);" id ="icon" onclick="hamburgerMenu()">
@@ -54,27 +54,27 @@
 			<div class="slideshow-container">
 				<div class="Slideshow fade"> 
 					<div class="numbertext">1 / 5</div>
-					<a href ="/ExclusionZone.html"> <img src="images/ExclusionZonePic3.png" class ="Slideshow-Image"></a>
+					<a href ="/ExclusionZone.html" class = "redirect-link"> <img src="images/ExclusionZonePic3.png" class ="Slideshow-Image"></a>
 				</div>
 			
 				<div class="Slideshow fade">
 					<div class="numbertext">2 / 5</div>
-					<a href ="/OrderUp.html"> <img src="images/ExclusionZonePic3.png" class ="Slideshow-Image"></a>
+					<a href ="/OrderUp.html" class = "redirect-link"> <img src="images/ExclusionZonePic3.png" class ="Slideshow-Image"></a>
 				</div>
 			
 				<div class="Slideshow fade">
 					<div class="numbertext">3 / 5</div>
-					<a href ="/HeartOfTheForest.html"> <img src="images/ExclusionZonePic3.png" class ="Slideshow-Image"></a>
+					<a href ="/HeartOfTheForest.html" class = "redirect-link"> <img src="images/ExclusionZonePic3.png" class ="Slideshow-Image"></a>
 				</div>
 
 				<div class="Slideshow fade">
 					<div class="numbertext">4 / 5</div>
-					<a href ="/Castaway Port.html"> <img src="images/ExclusionZonePic3.png" class ="Slideshow-Image"></a>
+					<a href ="/Castaway Port.html" class = "redirect-link"> <img src="images/ExclusionZonePic3.png" class ="Slideshow-Image"></a>
 				</div>
 
 				<div class="Slideshow fade">
 					<div class="numbertext">5 / 5</div>
-					<a href ="/Project5.html"> <img src="images/ExclusionZonePic3.png" class ="Slideshow-Image"></a>
+					<a href ="/Project5.html" class = "redirect-link"> <img src="images/ExclusionZonePic3.png" class ="Slideshow-Image"></a>
 				</div>
 				<a class="prev" onclick="plusSlides(-1)">&#10094;</a>
 				<a class="next" onclick="plusSlides(1)">&#10095;</a>
@@ -134,7 +134,9 @@
 			<div class = "main-project-container">
 				<div class = "gallery">
 					<div class = "gallery-image">
-						<a href = "/ExclusionZone.html"> <img src = "images/PlaceholderImage.png" width ="350" height = "350"></a>
+						<a href="ExclusionZone.html" class="redirect-link">
+							<img src="images/PlaceholderImage.png" width="350" height="350">
+						</a>
 					</div>					
 					<div class = "gallery-image-title-container">
 						<div class="gallery-image-title">
@@ -145,7 +147,9 @@
 
 				<div class = "gallery">
 					<div class = "gallery-image">
-						<a href = "/OrderUp.html"> <img src = "images/PlaceholderImage.png" width ="350" height = "350"></a>
+						<a href = "/OrderUp.html" class = "redirect-link"> 
+							<img src = "images/PlaceholderImage.png" width ="350" height = "350">
+						</a>
 					</div>					
 					<div class = "gallery-image-title-container">
 						<div class="gallery-image-title">
@@ -156,7 +160,9 @@
 	
 				<div class = "gallery">
 					<div class = "gallery-image">
-						<a href = "/HeartOfTheForest.html"> <img src = "images/PlaceholderImage.png" width ="350" height = "350"></a>
+						<a href = "/HeartOfTheForest.html" class = "redirect-link"> 
+							<img src = "images/PlaceholderImage.png" width ="350" height = "350">
+						</a>
 					</div>					
 					<div class = "gallery-image-title-container">
 						<div class="gallery-image-title">
@@ -167,7 +173,9 @@
 
 				<div class = "gallery">
 					<div class = "gallery-image">
-						<a href = "/CastawayPort.html"> <img src = "images/PlaceholderImage.png" width ="350" height = "350"></a>
+						<a href = "/CastawayPort.html" class = "redirect-link"> 
+							<img src = "images/PlaceholderImage.png" width ="350" height = "350">
+						</a>
 					</div>					
 					<div class = "gallery-image-title-container">
 						<div class="gallery-image-title">
@@ -178,7 +186,9 @@
 
 				<div class = "gallery">
 					<div class = "gallery-image">
-						<a href = "/Project5.html"> <img src = "images/PlaceholderImage.png" width ="350" height = "350"></a>
+						<a href = "/Project5.html" class = "redirect-link"> 
+							<img src = "images/PlaceholderImage.png" width ="350" height = "350">
+						</a>
 					</div>					
 					<div class = "gallery-image-title-container">
 						<div class="gallery-image-title">
