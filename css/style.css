@@ -748,9 +748,10 @@ nav a:hover
 
 .Slideshow-Image{
 	width: 100%;
-	max-height: 90vh;
+	max-height: 73vh;
 	object-fit: cover;
-	min-width: 1920px;
+	max-width: 100%;
+    height: auto;
 }
 
 

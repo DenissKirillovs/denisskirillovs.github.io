@@ -1,5 +1,6 @@
 document.addEventListener("DOMContentLoaded", function() {
     var loaderWrapper = document.querySelector(".loader-wrapper");
+    var redirectLinks = document.querySelectorAll(".redirect-link");
 
     // Fade in the loader
     function fadeIn(element, duration, callback) {
@@ -43,28 +44,32 @@ document.addEventListener("DOMContentLoaded", function() {
     }
 
     // Function to handle redirection with animations
-    function handleRedirect(event) {
-        event.preventDefault();
-
-        var targetUrl = this.getAttribute("href");
-
+    function handleRedirect(targetUrl) {
         fadeIn(loaderWrapper, 500, function() {
-            setTimeout(function() {
-                window.location.href = targetUrl; // Redirect after a delay
-            }, 1500); // Delay in milliseconds (1.5 seconds)
+            window.location.href = targetUrl; // Redirect after the loader fades in
         });
     }
 
-    // Attach click event listeners to all .redirect-link elements
-    var redirectLinks = document.querySelectorAll(".redirect-link");
+    // Attach click event listeners to specific URL .redirect-link elements
     redirectLinks.forEach(function(link) {
-        link.addEventListener("click", handleRedirect);
+        link.addEventListener("click", function(event) {
+            event.preventDefault();
+            var targetUrl = this.getAttribute("href");
+            if (!targetUrl.includes("#")) {
+                handleRedirect(targetUrl);
+            } else {
+                // Handle internal anchor links without animations
+                window.location.href = targetUrl;
+            }
+        });
     });
 
     // Handle the popstate event (back and forward navigation)
     window.addEventListener("popstate", function(event) {
         var targetUrl = window.location.href;
-        handleRedirect.call({getAttribute: function() { return targetUrl; } }, event);
+        if (!targetUrl.includes("#")) {
+            handleRedirect(targetUrl);
+        }
     });
 
     // After the page and resources are loaded, fade out the loader
