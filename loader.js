@@ -61,6 +61,12 @@ document.addEventListener("DOMContentLoaded", function() {
         link.addEventListener("click", handleRedirect);
     });
 
+    // Handle the popstate event (back and forward navigation)
+    window.addEventListener("popstate", function(event) {
+        var targetUrl = window.location.href;
+        handleRedirect.call({getAttribute: function() { return targetUrl; } }, event);
+    });
+
     // After the page and resources are loaded, fade out the loader
     window.addEventListener("load", function() {
         fadeOut(loaderWrapper, 500);
