@@ -66,10 +66,14 @@ document.addEventListener("DOMContentLoaded", function() {
 
     // Handle the popstate event (back and forward navigation)
     window.addEventListener("popstate", function(event) {
-        var targetUrl = window.location.href;
-        if (!targetUrl.includes("#")) {
-            handleRedirect(targetUrl);
-        }
+        // Use setTimeout to delay the execution of the handler
+        window.setTimeout(function() {
+            var targetUrl = window.location.href;
+            if (!targetUrl.includes("#")) {
+                handleRedirect(targetUrl);
+            }
+        }, 50); // Adjust the delay as needed
+
     });
 
     // After the page and resources are loaded, fade out the loader
