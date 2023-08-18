@@ -69,8 +69,7 @@ document.addEventListener("DOMContentLoaded", function() {
         var targetUrl = window.location.href;
         if (!targetUrl.includes("#")) {
             handleRedirect(targetUrl);
-        }
-        if (targetUrl.includes('/index.html')) {
+        } else if (targetUrl.includes('/index.html')) {
             fadeOut(loaderWrapper, 500, function() {
                 window.location.href = targetUrl;
             });
