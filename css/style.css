@@ -378,12 +378,10 @@ input[type="radio"]{
 	text-decoration: none;
 }
 
-a, a:visited a:active
-{
+.URL-Link, .URL-Link:visited, .URL-Link:active{
 	color: white;
 }
-
-a:hover {
+.URL-Link:hover{
 	color: rgb(255, 160, 160);
 }
 
@@ -447,7 +445,10 @@ a:hover {
 	display: flex;
 	/* margin-left: auto;
 	margin-right: auto; */
+	border-radius: 3px;
 }
+
+
 
 .gallery
 {
@@ -466,6 +467,7 @@ a:hover {
 	padding-top: 8px;
 	padding-bottom: 8px;
 	color: white;
+	text-decoration: none !important;
 }
 
 /* END OF PROJECTS CONTENT */
