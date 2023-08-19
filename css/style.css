@@ -761,9 +761,23 @@ nav a:hover
 	max-height: 73vh;
 	object-fit: cover;
 	max-width: 100%;
-    height: auto;
 }
 
+.slideshow-project-title{
+	position: absolute;	
+	width: 100%;
+	bottom: 0;
+
+}
+
+.slideshow-text-wrapper{
+	color: white;
+	background-color: rgba(0,0,0,0.35);
+	text-align: center;
+	padding-top: 8px;
+	padding-bottom: 8px;
+	font-size: 15px;
+}
 
 * {box-sizing:border-box}
 
