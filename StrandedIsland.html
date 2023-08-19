@@ -1,0 +1,202 @@
+<html id = "Top">
+
+	<head>
+		<title>Deniss Kirillovs - Games Programming and Design Portfolio</title>
+		<link rel ="stylesheet" href ="css/style.css">	
+		<link href="https://fonts.googleapis.com/css?family=Work+Sans:400" rel="stylesheet">
+		<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+		<script type="module" src="https://unpkg.com/@google/model-viewer/dist/model-viewer.min.js"></script>
+		<script nomodule src="https://unpkg.com/@google/model-viewer/dist/model-viewer-legacy.js"></script>
+		<meta name="viewport" content="width=device-width, initial-scale=1.0">
+		<script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+	</head>
+
+
+	<body>
+		<div class="loader-wrapper">
+			<span class="loader"><span class="loader-inner"></span></span>
+		</div>
+		<div class = "page-container">
+			<div class="background-image" id="StrandedIsland"></div>
+			<header>
+				<div class = "container">
+					<nav>
+						<div class ="NavLink">
+							<ul>
+								<div class ="Fullscreen">
+									<li><a href="index.html" class = "redirect-link">Deniss Kirillovs</a></li>
+									<li><a href="/index.html" class = "redirect-link">About Me</a></li>
+									<li><a href="/index.html" class = "redirect-link">Projects</a></li>
+									<li><a href="/index.html" class = "redirect-link">Contact</a></li>											
+									<li><a href="/personal-work.html">Personal Work</a></li>
+									<li><a href="downloads/DenissKirillovs_CV.pdf">&nbsp&nbsp CV &nbsp&nbsp</a></li>
+								</div>
+							</ul>
+						</div>
+						
+						
+						<div class = "MyLinks">			
+							<a id = "subMyName" href="/index.html" onclick = "closehamburger()" class = "redirect-link">Deniss Kirillovs</a>
+							<a id = "subAboutMe" href="/index.html" onclick = "closehamburger()" class = "redirect-link">About Me</a>
+							<a id = "subProjects" href="/index.html" onclick = "closehamburger()" class = "redirect-link">Projects</a>
+							<a id = "subContact" href="/index.html" onclick = "closehamburger()" class = "redirect-link">Contact</a>								
+							<a id = "subPersonalWork" href="/personal-work.html" onclick = "closehamburger()">Personal Work</a>
+							<a id = "subCV" href="downloads/DenissKirillovs_CV.pdf" target="_blank" rel="noopener noreferrer" onclick = "closehamburger()">CV</a>			
+						</div>
+						<a href="javascript:void(0);" id ="icon" onclick="hamburgerMenu()">
+							<i class="fa fa-bars"></i>
+						</a>
+					</nav>
+				
+				</div>
+			</header>
+
+			<div class = "project-container">
+				<div class="PersonalProject-Box">
+					<div class = "project-header">
+						<h1 class="PersonalProject-TitleText">Stranded Island</h1>
+					</div>
+					<br>
+					<div class = "PersonalProject-Info-Container">
+						<table class = "PersonalProject-Table">
+							<tbody>
+								<tr>
+									<td class = "PersonProject-Table-Text">
+										<strong>Project Type:</strong>
+									</td>
+									<td class = "PersonProject-Table-Text">University Level Design Project</td>
+								</tr>
+	
+								<tr>
+									<td class = "PersonProject-Table-Text">
+										<strong>Primary Role:</strong>
+									</td>
+									<td class = "PersonProject-Table-Text">Level Designer/Environment Artist</td>
+								</tr>
+	
+								<tr>
+									<td class = "PersonProject-Table-Text">
+										<strong>Software used:</strong>
+									</td>
+									<td class = "PersonProject-Table-Text">Unreal Engine 4, Sequencer</td>
+								</tr>
+	
+								<tr>
+									<td class = "PersonProject-Table-Text">
+										<strong>Language Used:</strong>
+									</td>
+									<td class = "PersonProject-Table-Text">Blueprints</td>
+								</tr>
+							</tbody>
+						</table>
+					</div>
+				</div>
+
+				
+				<ul class = "accordion">
+					<li> 
+						<input type="radio" name="accordion" id = "first" checked>
+						<label for="first">Overview</label>
+						<div class="content">
+							<p>
+								This is a project I worked on during my first year at University for a "Level Design 
+								Fundamentals" unit. I needed to create a relatively small level environment using one of the asset packs provided
+								to us, and create a video showcasing the level in its form using Unreal Engine Sequencer tool.
+							</p>
+							<p>
+								I went through many different ideas of an environment that I wanted to create, 
+								however in the end I settled for a human inhabited island with a medieval docking port, 
+								with a medieval architecture.
+							</p>
+							<p>
+								For this project I used <a href="https://www.unrealengine.com/marketplace/en-US/product/medieval-docks">medieval docks asset pack</a> 
+								alongside a <a href="https://www.unrealengine.com/marketplace/en-US/product/fantasy-and-medieval-artchitecture-kit">medieval architecture kit asset pack</a>
+							</p>
+							<div class = "ProjectImages">
+								<img src = "images\MedievalArchitectureIMG1.png" style="max-width: 90%;"><br><br>
+								<img src = "images\MedievalDocksIMG1 .png" style="max-width: 90%;"><br><br>
+							</div>
+						</div>
+					</li>
+
+					<li> 
+						<input type="radio" name="accordion" id = "second">
+						<label for="second">Description</label>
+						<div class="content">
+							<p>
+								This is a project I worked on for roughly around 2 weeks - I first began creating a whiteboxed
+								environment to get a feel for the scale and the environment I wanted to create. After I got the desired
+								look I began working on a procedural landscape material.
+							</p>
+							<p>
+								The medieval architecture pack came with fully modular buildings assets that was very easy to use and design
+								unique buildings, on top of various props that were used to populate the scene and make it seem full and realistic.
+							</p>
+							<div class = "ProjectImages">
+								<img src = "images\MedievalArchitecture_ModularIMG.png" style="max-width: 90%;"><br><br>
+								<img src = "images\MedievalArchitecture_MyModularBuilding.png" style="max-width: 90%;"><br><br>
+							</div>
+
+							<p>
+								After designing some unique modular houses, I began plotting creating the main part of the level, which was the port.
+								<br>
+								I used some reference images and artwork of online of medeival ports and used those images as inspiration.
+							</p>
+							<div class = "ProjectImages">
+								<img src = "images\LDF_Port.png" style="max-width: 90%;"><br><br>
+							</div>
+							<h3>Something to note:</h3>
+							<p>
+								One thing that was very limiting is the fact that my computer wasn't really fit for this type
+								of work at the time. So the visual quality of the models, environment and especially the grass is very lacking.
+								<br>
+								This is something that I wholeheartedly regret overlooking before starting this project. In hindsight,
+								it was probably more plausible to create a different environment in a different setting than an open plan level.
+							</p>
+							<p>
+								Due to this project basically being one of my first ever environments I created, a lot of things were never even considered or implemented.
+								Things such as a post-process material, atmoshperic fog and proper lighting was something that I never really explored and experienced designing with. 
+							</p>
+						</div>
+					</li>
+
+					<li> 
+						<input type="radio" name="accordion" id = "third">
+						<label for="third">Images</label>
+						<div class="content">
+							<div class = "ProjectImages">
+								<img src = "images\LDF_Image1.png" width ="800px" height = "450px"><br><br>
+								<img src = "images\LDF_Image2.png" width ="800px" height = "450px"><br><br>
+								<img src = "images\LDF_Image3.png" width ="800px" height = "450px"><br><br>
+								<img src = "images\LDF_Image4.png" width ="800px" height = "450px"><br><br>
+							</div>
+						</div>
+					</li>
+
+					<li> 
+						<input type="radio" name="accordion" id = "forth">
+						<label for="forth">Videos</label>
+						<div class="content">
+							<h2>Trailer Video</h2>
+							<div class = "video">
+								<iframe width="500" height="350" src="https://www.youtube.com/embed/tgbNymZ7vqY" 
+								frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+							</div>
+						</div>
+					</li>
+				</ul>
+			</div>
+
+			<script src="Nav.js"></script>
+
+		</div>
+
+		<footer class = "footer" id = "Bottom">
+			Copyrighted © 2023 by Deniss Kirillovs
+		</footer>
+
+		<script src = "loader.js"></script>
+	</body>
+	
+	
+</html>

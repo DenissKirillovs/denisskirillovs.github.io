@@ -176,6 +176,14 @@ body
 	background-image: url("/images/OrderUpBanner.png");
 }
 
+#HeartOfTheForest{
+	background-image: url("/images/HoTF_ProjectImage.png");
+}
+
+#StrandedIsland {
+	background-image: url("/images/LDF_Image1.png");
+}
+
 
 /* Fade In animation using simple opacity keyframes from and to
 @keyframes fadeIn {
