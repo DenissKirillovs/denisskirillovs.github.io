@@ -118,48 +118,6 @@ body
 	}
 }
 
-/* .loader{
-	position: fixed;
-	top: 0;
-	left: 0;
-	width: 100vw;
-	height: 100vh;
-	display: flex;
-	align-items: center;
-	justify-content: center;
-	background: #333333;
-	z-index: 100;
-	transition: opacity 0.75s, visiblity 0.75s;
-}
-
-.loader::after{
-	content: "";
-	width: 75px;
-	height: 75px;
-	border: 10px solid #ddd;
-	border-top-color: #444444;
-	border-radius: 50%;
-	animation: loading 0.75s ease infinite;
-}
-
-.loader--hidden{
-	opacity: 0;
-	visibility: hidden;
-}
-
-@keyframes loading {
-	from { 
-		transform : rotate(0turn)
-	}
-	to { 
-		transform : rotate(1turn)
-	}
-} */
-
-
-
-
-
 .background-image{
     width: 100%;
     height: 100%;
@@ -177,26 +135,12 @@ body
 }
 
 #HeartOfTheForest{
-	background-image: url("/images/HoTF_ProjectImage.png");
+	background-image: url("/images/HoTF_Banner.png");
 }
 
 #StrandedIsland {
 	background-image: url("/images/LDF_Image1.png");
 }
-
-
-/* Fade In animation using simple opacity keyframes from and to
-@keyframes fadeIn {
-
-	from {
-		opacity: 0;
-	}
-
-	to {
-		opacity: 1;
-	}
-
-} */
 
 .full-width {
 	width: 100%;
@@ -303,7 +247,7 @@ input[type="radio"]{
 }
 
 .accordion input[type="radio"]:checked + label + .content{
-	max-height: 2650px;
+	max-height: 3000px;
 	padding: 10px 10px 20px;
 }
 
@@ -379,10 +323,17 @@ input[type="radio"]{
 }
 
 .URL-Link, .URL-Link:visited, .URL-Link:active{
+	text-decoration: underline;
 	color: white;
 }
+
+
 .URL-Link:hover{
 	color: rgb(255, 160, 160);
+}
+
+a, a:active, a::before, a:visited {
+	text-decoration: none;
 }
 
 .social-icons
