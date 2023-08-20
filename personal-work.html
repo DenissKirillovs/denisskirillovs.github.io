@@ -1,24 +1,25 @@
 <html id = "Top">
 
 	<head>
-		<title>Deniss Kirillovs - Game Programming and Design Portfolio</title>
+		<title>Deniss Kirillovs - Games Programming and Design Portfolio</title>
 		<link rel ="stylesheet" href ="css/style.css">	
 		<link href="https://fonts.googleapis.com/css?family=Work+Sans:400" rel="stylesheet">
 		<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
 		<script type="module" src="https://unpkg.com/@google/model-viewer/dist/model-viewer.min.js"></script>
 		<script nomodule src="https://unpkg.com/@google/model-viewer/dist/model-viewer-legacy.js"></script>
-
+		<meta name="viewport" content="width=device-width, initial-scale=1.0">
+		<script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
 	</head>
 
 
 	<body>
+		<div class="loader-wrapper">
+			<span class="loader"><span class="loader-inner"></span></span>
+		</div>
 		<div class = "page-container">
 			<header>
-			
 				<div class = "container">
-				
 					<nav>
-					
 						<div class ="NavLink">
 							<ul>
 								<div class ="Fullscreen">
@@ -27,7 +28,7 @@
 									<li><a href="/index.html">Projects</a></li>
 									<li><a href="/index.html">Contact</a></li>							
 									<li><a href="#Top">Personal Work</a></li>
-									<li><a href="downloads/Job CV Application.docx">Resume</a></li>
+									<li><a href="downloads/DenissKirillovs_CV.pdf">&nbsp&nbsp CV &nbsp&nbsp</a></li>
 								</div>
 							</ul>
 						</div>
@@ -39,13 +40,12 @@
 							<a id = "subProjects" href="/index.html" onclick = "closehamburger()">Projects</a>
 							<a id = "subContact" href="/index.html" onclick = "closehamburger()">Contact</a>							
 							<a id = "subPersonalWork" href="#Top" onclick = "closehamburger()">Personal Work</a>
-							<a id = "subResume" href="downloads/Job CV Application.docx" onclick = "closehamburger()">Resume</a>				
+							<a id = "subCV" href="ddownloads/DenissKirillovs_CV.pdf" onclick = "closehamburger()">Resume</a>				
 						</div>
 						<a href="javascript:void(0);" id ="icon" onclick="hamburgerMenu()">
 							<i class="fa fa-bars"></i>
 						</a>
 					</nav>
-				
 				</div>
 			</header>
 
@@ -54,7 +54,7 @@
 				<div class = "JumpOffset" id = "Projects"></div>
 				<div id = "MyProjects" class = "Projects-section--medium section" style = "display: table;">
 					<div class = "SectionContent" id = "MyProjectsTable">
-						<span class = "title--medium title">Models worth sharing</span>
+						<span class = "title--medium title">3D Models</span>
 						<br>
 						<div class = "description">
 							<p>Drag to rotate models</p>
@@ -69,7 +69,7 @@
 			<div class = "models-container">
 				<div class = "models-content-container">
 					<div class = "model-viewer">
-						<model-viewer id = "model" src="models/Sawed_Off_Shotgun_GLB.glb" alt="A 3D model of an astronaut" auto-rotate camera-controls></model-viewer>
+						<model-viewer id = "model" src="models/Alchemy_Lvl1.glb" alt="A 3D model of an astronaut" auto-rotate camera-controls></model-viewer>
 						<br>
 						<div class = "models-name">Model Name #1</div>
 						<br>
@@ -162,17 +162,14 @@
 
 
 		<!-- END OF PERSONAL MODELS CONTENT -->
-
-			
-		
 			<script src="Nav.js"></script>
-
-			
-		<div class = "footer-padding">
-			<div class="footer" id = "Bottom">
-				Copyrighted © 2020 by Deniss Kirillovs
-			</div>
-		</div>
+			<!-- END OF CONTACT -->
+		<!-- START OF FOOTER -->
+		<footer class = "footer" id = "Bottom">
+			Copyrighted © 2023 by Deniss Kirillovs
+		</footer>
+		<!-- END OF FOOTER -->
+		<script src = "loader.js"></script>
 
 
 	</div>
