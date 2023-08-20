@@ -336,6 +336,14 @@ a, a:active, a::before, a:visited {
 	text-decoration: none;
 }
 
+.video{
+	clip-path: inset(1px 1px);
+}
+
+.video:focus {
+	outline:none;
+}
+
 .social-icons
 {
 	padding-left: 12px;
