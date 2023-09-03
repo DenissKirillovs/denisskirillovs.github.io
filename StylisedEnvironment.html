@@ -1,0 +1,155 @@
+<html>
+
+	<head>
+		<title>Deniss Kirillovs - Games Programming and Design Portfolio</title>
+		<link rel ="stylesheet" href ="css/style.css">	
+		<link href="https://fonts.googleapis.com/css?family=Work+Sans:400" rel="stylesheet">
+		<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+		<script type="module" src="https://unpkg.com/@google/model-viewer/dist/model-viewer.min.js"></script>
+		<script nomodule src="https://unpkg.com/@google/model-viewer/dist/model-viewer-legacy.js"></script>
+		<meta name="viewport" content="width=device-width, initial-scale=1.0">
+		<script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+	</head>
+
+
+	<body>
+		<!-- <div class="loader-wrapper">
+			<span class="loader"><span class="loader-inner"></span></span>
+		</div> -->
+		<div class = "page-container">
+			<div class="background-image" id="StylisedEnvironment"></div>
+			<header>
+				<div class = "container">
+					<nav>
+						<div class ="NavLink">
+							<ul>
+								<div class ="Fullscreen">
+									<li><a href="index.html" class = "redirect-link">Deniss Kirillovs</a></li>
+									<li><a href="/index.html" class = "redirect-link">About Me</a></li>
+									<li><a href="/index.html" class = "redirect-link">Projects</a></li>
+									<li><a href="/index.html" class = "redirect-link">Contact</a></li>							
+									<li><a href="/personal-work.html">Personal Work</a></li>
+									<li><a href="downloads/DenissKirillovs_CV.pdf">&nbsp&nbsp CV &nbsp&nbsp</a></li>
+								</div>
+							</ul>
+						</div>
+						
+						
+						<div class = "MyLinks">			
+							<a id = "subMyName" href="/index.html" onclick = "closehamburger()">Deniss Kirillovs</a>
+							<a id = "subAboutMe" href="/index.html" onclick = "closehamburger()">About Me</a>
+							<a id = "subProjects" href="/index.html" onclick = "closehamburger()">Projects</a>
+							<a id = "subContact" href="/index.html" onclick = "closehamburger()">Contact</a>							
+							<a id = "subPersonalWork" href="/personal-work.html" onclick = "closehamburger()">Personal Work</a>
+							<a id = "subCV" href="downloads/DenissKirillovs_CV.pdf" target="_blank" rel="noopener noreferrer" onclick = "closehamburger()">CV</a>			
+						</div>
+						<a href="javascript:void(0);" id ="icon" onclick="hamburgerMenu()">
+							<i class="fa fa-bars"></i>
+						</a>
+					</nav>
+				
+				</div>
+			</header>
+
+			<div class = "project-container">
+				<div class="PersonalProject-Box">
+					<div class = "project-header">
+						<h1 class="PersonalProject-TitleText">Stylised Environment</h1>
+					</div>
+					<br>
+					<div class = "PersonalProject-Info-Container">
+						<table class = "PersonalProject-Table">
+							<tbody>
+								<tr>
+									<td class = "PersonProject-Table-Text">
+										<strong>Project Type:</strong>
+									</td>
+									<td class = "PersonProject-Table-Text">Personal</td>
+								</tr>
+								<tr>
+									<td class = "PersonProject-Table-Text">
+										<strong>Software used:</strong>
+									</td>
+									<td class = "PersonProject-Table-Text">Unreal Engine 5.2</td>
+								</tr>
+	
+								<tr>
+									<td class = "PersonProject-Table-Text">
+										<strong>Language Used:</strong>
+									</td>
+									<td class = "PersonProject-Table-Text">Blueprint</td>
+								</tr>
+							</tbody>
+						</table>
+					</div>
+				</div>
+
+				
+				<ul class = "accordion">
+					<li> 
+						<input type="radio" name="accordion" id = "first" checked>
+						<label for="first">Overview</label>
+						<div class="content">
+							<p>
+								I've always been a fond of stylised games and environments, so this was a short preview and environment I created
+								to explore it. For this short 1 day project, I used an asset pack to quickly put things together after I did a short sketch of an 
+								environment I wanted to create.
+							</p>
+
+							<p>
+								After this project was finished, I am starting to plan out a proper stylised environment designed from the ground up. I want to transfer
+								my skills I've gained using Maya and Substance Painter and start using Blender, Speedtree and other software to help me create environments.
+							</p>
+						</div>
+					</li>
+
+					<li> 
+						<input type="radio" name="accordion" id = "second">
+						<label for="second">Moodboard</label>
+						<div class="content">
+							<p>
+								I quickly put together a brainstorm Miro page to get the style and look I wanted for this environment.
+								I'm planning on using this moodboard for future stylised environments I make.
+							</p>
+							<div class = "ProjectImages">
+								<img src = "images\StylisedEnvironment_Miro.png" width ="90%" height = ""><br><br>
+							</div>
+						</div>
+					</li>
+
+					<li> 
+						<input type="radio" name="accordion" id = "forth">
+						<label for="forth">Images</label>
+						<div class="content">
+							<div class = "ProjectImages">
+								<img src = "images\StylisedEnvironmentBanner.png" width ="90%" height = ""><br><br>
+							</div>
+						</div>
+					</li>
+
+					<li> 
+						<input type="radio" name="accordion" id = "fifth">
+						<label for="fifth">Videos</label>
+						<div class="content">
+							<div class = "video">
+								<iframe width="500" height="350" src="https://www.youtube.com/embed/sT2-xhOiVW4" 
+								frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+							</div>
+						</div>
+					</li>
+				</ul>
+			</div>
+
+			<script src="Nav.js"></script>
+
+		</div>
+
+		<footer class = "footer" id = "Bottom">
+			Copyrighted © 2023 by Deniss Kirillovs
+		</footer>
+
+		<!-- <script src = "loader.js"></script> -->
+	</body>
+	
+	
+</html>

@@ -141,6 +141,9 @@ body
 #StrandedIsland {
 	background-image: url("/images/LDF_IMG1.png");
 }
+#StylisedEnvironment {
+	background-image: url("/images/StylisedEnvironmentBanner.png");
+}
 
 .full-width {
 	width: 100%;
