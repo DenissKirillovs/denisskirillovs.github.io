@@ -1,0 +1,213 @@
+<html>
+
+	<head>
+		<title>Deniss Kirillovs - Games Programming and Design Portfolio</title>
+		<link rel ="stylesheet" href ="css/style.css">	
+		<link href="https://fonts.googleapis.com/css?family=Work+Sans:400" rel="stylesheet">
+		<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+		<script type="module" src="https://unpkg.com/@google/model-viewer/dist/model-viewer.min.js"></script>
+		<script nomodule src="https://unpkg.com/@google/model-viewer/dist/model-viewer-legacy.js"></script>
+		<meta name="viewport" content="width=device-width, initial-scale=1.0">
+		<script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+	</head>
+
+
+	<body>
+		<!-- <div class="loader-wrapper">
+			<span class="loader"><span class="loader-inner"></span></span>
+		</div> -->
+		<div class = "page-container">
+			<div class="background-image" id="TechCowboy"></div>
+			<header>
+				<div class = "container">
+					<nav>
+						<div class ="NavLink">
+							<ul>
+								<div class ="Fullscreen">
+									<li><a href="index.html" class = "redirect-link">Deniss Kirillovs</a></li>
+									<li><a href="/index.html" class = "redirect-link">About Me</a></li>
+									<li><a href="/index.html" class = "redirect-link">Projects</a></li>
+									<li><a href="/index.html" class = "redirect-link">Contact</a></li>									
+									<!-- <li><a href="/personal-work.html" class = "redirect-link">Personal Work</a></li> -->
+									<li><a href="downloads/DenissKirillovs_CV.pdf">&nbsp&nbsp CV &nbsp&nbsp</a></li>
+								</div>
+							</ul>
+						</div>
+						
+						
+						<div class = "MyLinks">			
+							<a id = "subMyName" href="/index.html" onclick = "closehamburger()" class = "redirect-link">Deniss Kirillovs</a>
+							<a id = "subAboutMe" href="/index.html" onclick = "closehamburger()" class = "redirect-link">About Me</a>
+							<a id = "subProjects" href="/index.html" onclick = "closehamburger()" class = "redirect-link">Projects</a>
+							<a id = "subContact" href="/index.html" onclick = "closehamburger()" class = "redirect-link">Contact</a>							
+							<!-- <a id = "subPersonalWork" href="/personal-work.html" onclick = "closehamburger()">Personal Work</a> -->
+							<a id = "subCV" href="downloads/DenissKirillovs_CV.pdf" target="_blank" rel="noopener noreferrer" onclick = "closehamburger()">CV</a>			
+						</div>
+						<a href="javascript:void(0);" id ="icon" onclick="hamburgerMenu()">
+							<i class="fa fa-bars"></i>
+						</a>
+					</nav>
+				
+				</div>
+			</header>
+
+			<div class = "project-container">
+				<div class="PersonalProject-Box">
+					<div class = "project-header">
+						<h1 class="PersonalProject-TitleText">Tech Cowboy</h1>
+					</div>
+					<br>
+					<div class = "PersonalProject-Info-Container">
+						<table class = "PersonalProject-Table">
+							<tbody>
+								<tr>
+									<td class = "PersonProject-Table-Text">
+										<strong>Project Type:</strong>
+									</td>
+									<td class = "PersonProject-Table-Text">Epic MegaJam 2023 - Game Jam</td>
+								</tr>
+	
+								<tr>
+									<td class = "PersonProject-Table-Text">
+										<strong>Primary Role:</strong>
+									</td>
+									<td class = "PersonProject-Table-Text">Level Designer/Artist</td>
+								</tr>
+	
+								<tr>
+									<td class = "PersonProject-Table-Text">
+										<strong>Software used:</strong>
+									</td>
+									<td class = "PersonProject-Table-Text">Photoshop, Maya, Unreal Engine 5, Figma, DaVinci Resolve</td>
+								</tr>
+	
+								<tr>
+									<td class = "PersonProject-Table-Text">
+										<strong>Language Used:</strong>
+									</td>
+									<td class = "PersonProject-Table-Text">Blueprints</td>
+								</tr>
+							</tbody>
+						</table>
+					</div>
+				</div>
+
+				
+				<ul class = "accordion">
+					<li> 
+						<input type="radio" name="accordion" id = "first" checked>
+						<label for="first">Overview</label>
+						<div class="content">
+							<p>
+								Tech Cowboy is a Top-Down survival shooter built with Unreal Engine 5 during the <a href="https://itch.io/jam/2023-epic-megajam" class = "URL-Link">Epic Games' 2023 Game Jam.</a>
+								
+								I was in charge of visualising the game, creating playable levels, models and visual effects, some minor UI/HUD interface, as well as the trailer below.
+							</p>
+
+							<div class = "video">
+								<iframe width="90%" height="500px" src="https://www.youtube.com/embed/CB6hmWqEooA?si=kgTZLx9Dl2KJbszg"
+								frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+							</div>
+						</div>
+					</li>
+
+					<li> 
+						<input type="radio" name="accordion" id = "second">
+						<label for="second">Description</label>
+						<div class="content">
+							<p>
+								My co-dev and I set out to design a game that may be finished within the Game Jam deadline of 1 week, due to our lack of experience at that time, we 
+								aimed for something more simplistic, while trying to stay true to the theme of the Game Jam - 'Antiquated Future'.
+							</p>
+							<p>
+								We sat down inside Figma tool and brainstormed various ideas on what the words "Antiquated Future" meant for both of us.
+								We had various ideas ranging from puzzle based games with time-travelling mechanics, to fighting game with quick time events and roguelike elements. However,
+								we decided to stray away from these complex ideas that may be proven difficult to make "fun" and "enjoyable" experiences from.
+							</p>
+							<p>
+								Our vision in TechCowboy started with an idea of mecha-aliens and a cowboy that defends his town from an alien invasion. The players' goal is to fight against
+								these enemies, gain points in return and use them to upgrade his own abilities to fight off the increasing waves of aliens.
+							</p>
+							<p>
+								For player's to feel engaged, we tried our best to create an impactful and flashy abilities, sound and visual effects.
+							</p>
+						</div>
+					</li>
+
+					<li> 
+						<input type="radio" name="accordion" id = "third">
+						<label for="third">Features</label>
+						<div class="content">
+							<p>
+								Due to personal time constraints, I opted to use ready made assets such as the Environment and Player Character and animations, 
+								and in turn, spend most of my time creating an enjoyable map for the player to play in. 
+							</p>
+							<p>
+								I wanted to avoid making a generic, arena style map that a lot of people have seen or expect from these types of games. So I aimed to create a believable setting for our environment, that fit our theme.<br>
+								The map was created with a few important aspects
+							<p>
+								• Avoid clastraphobic areas - as this can lead to player feeling restrictive on where they can move.<br>
+								• Make the environment feel believable and fit the Game Jam theme.<br>
+								• Reduce repetitiveness in the environment.
+								• Give the player many unique and interesting spaces to explore and play around in
+							</p>
+							<p>
+								Enemies were modelled inside Maya, while keeping a low poly look. I came up with 3 archetypes for the enemies (wanted 4, but didn't have enough time):<br>
+								• The Bomber - 4 legged spider looking robot bug that rushes to the player and explodes when comes into contact or destroys, dealing damage to the surrounding enemies where possible.
+								• Sniper - Robotic eye that charges a laser shot that flies at fast speeds. Keeps relatively long distance away from the player.
+								• Drone - Neon drone mounted with a laser gun that shoots at the player when close. 
+							</p>
+							<p>
+								Each enemy was modelled, rigged and animated with 2-3 different animations such as idle, pursuit and death.
+							</p>
+
+						</div>
+					</li>
+
+
+					<li> 
+						<input type="radio" name="accordion" id = "forth">
+						<label for="forth">Feedback</label>
+						<div class="content">
+							<p>
+								Unfortunately, we didn't manage to get much user feedback due to not many people playing our game. However, one feedback that we've received talked about some visual clutter that is seen from enemies - specifically how their shadow made it hard for the player
+								to spot them. Additionally, how the camera was zoomed out so far that the player seemed too small.
+							</p>
+							<ul>
+								<p>These issues can be fixed by:</p>
+								<li>
+									Use a UI/visual indicator on the players screen to help them spot where the enemies are - either through an outline, or a marker that shows the direction of the closest enemy.
+								</li>
+							</ul>
+						</div>
+					</li>
+
+					<li> 
+						<input type="radio" name="accordion" id = "fifth">
+						<label for="fifth">Images</label>
+						<div class="content">
+							<div class = "ProjectImages">
+								<img src = "images\techcowboy_img1.jpg" width ="95%" height = "500px"><br><br>
+								<img src = "images\techcowboy_img2.jpg" width ="95%" height = "500px"><br><br>
+								<img src = "images\techcowboy_img5.jpg" width ="95%" height = "500px"><br><br>
+								<img src = "images\techcowboy_img4.jpg" width ="95%" height = "500px"><br><br>
+								<img src = "images\techcowboy_img3.jpg" width ="95%" height = "500px"><br><br>
+							</div>
+						</div>
+					</li>
+				</ul>
+			</div>
+
+			<script src="Nav.js"></script>
+
+		</div>
+
+		<footer class = "footer" id = "Bottom">
+			© 2023 Deniss Kirillovs. All Rights Reserved.
+		</footer>
+
+		<!-- <script src = "loader.js"></script> -->
+	</body>
+	
+	
+</html>

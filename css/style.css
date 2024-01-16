@@ -144,6 +144,9 @@ body
 #StylisedEnvironment {
 	background-image: url("/images/StylisedEnvironmentBanner.png");
 }
+#TechCowboy {
+	background-image: url("/images/TechCowboy_background.jpg");
+}
 
 .full-width {
 	width: 100%;
